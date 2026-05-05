@@ -1,0 +1,116 @@
+import Link from "next/link";
+
+export default function Footer() {
+  return (
+    <footer className="border-t border-slate-200 bg-slate-50/50 mt-auto">
+      <div className="container-wide py-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+          <div>
+            <div className="flex items-center gap-2.5 mb-3">
+              <div className="w-7 h-7 rounded-md bg-brand-blue flex items-center justify-center text-white font-medium text-xs">
+                T
+              </div>
+              <span className="font-medium text-brand-navy text-sm">
+                TOTYM Bookkeeping
+              </span>
+            </div>
+            <p className="text-xs text-slate-500 leading-relaxed">
+              QuickBooks-certified bookkeeping for solopreneurs. Based in
+              Mason, Ohio.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-xs font-medium text-brand-navy uppercase tracking-wider mb-3">
+              Services
+            </h3>
+            <ul className="space-y-2 text-sm text-slate-600">
+              <li>
+                <Link
+                  href="/services/monthly-bookkeeping"
+                  className="hover:text-brand-navy"
+                >
+                  Monthly Bookkeeping
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/catch-up-bookkeeping"
+                  className="hover:text-brand-navy"
+                >
+                  Catch-Up Bookkeeping
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/tax-ready-financials"
+                  className="hover:text-brand-navy"
+                >
+                  Tax-Ready Financials
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xs font-medium text-brand-navy uppercase tracking-wider mb-3">
+              Company
+            </h3>
+            <ul className="space-y-2 text-sm text-slate-600">
+              <li>
+                <Link href="/about" className="hover:text-brand-navy">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="/pricing" className="hover:text-brand-navy">
+                  Pricing
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="hover:text-brand-navy">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="hover:text-brand-navy">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xs font-medium text-brand-navy uppercase tracking-wider mb-3">
+              Get in touch
+            </h3>
+            <ul className="space-y-2 text-sm text-slate-600">
+              <li>Mason, Ohio</li>
+              <li>
+                <a
+                  href="mailto:hello@totymservices.com"
+                  className="hover:text-brand-navy"
+                >
+                  hello@totymservices.com
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="pt-6 border-t border-slate-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 text-xs text-slate-500">
+          <span>© {new Date().getFullYear()} TOTYM Bookkeeping Services LLC</span>
+          <div className="flex items-center gap-5">
+            <span>QuickBooks Certified ProAdvisor</span>
+            <Link href="/privacy" className="hover:text-brand-navy">
+              Privacy
+            </Link>
+            <Link href="/terms" className="hover:text-brand-navy">
+              Terms
+            </Link>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}

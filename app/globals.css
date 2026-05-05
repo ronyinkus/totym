@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-slate-700 antialiased;
+    font-feature-settings: "ss01", "cv01", "cv11";
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-brand-navy;
+    letter-spacing: -0.015em;
+  }
+}
+
+@layer components {
+  .container-narrow {
+    @apply max-w-4xl mx-auto px-5 sm:px-8;
+  }
+
+  .container-wide {
+    @apply max-w-6xl mx-auto px-5 sm:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-5 py-3 bg-brand-blue text-white font-medium rounded-lg hover:bg-brand-blue-mid transition-colors text-sm;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-5 py-3 bg-white text-brand-navy font-medium rounded-lg border border-slate-300 hover:border-slate-400 transition-colors text-sm;
+  }
+
+  .eyebrow {
+    @apply text-xs font-medium tracking-widest uppercase text-brand-blue-mid;
+  }
+
+  .prose-custom p {
+    @apply text-[15px] leading-[1.75] text-slate-600 mb-4;
+  }
+
+  .prose-custom h2 {
+    @apply text-2xl font-medium mt-10 mb-4;
+  }
+
+  .prose-custom h3 {
+    @apply text-lg font-medium mt-6 mb-2;
+  }
+
+  .prose-custom ul {
+    @apply list-disc pl-6 mb-4 space-y-2 text-slate-600 text-[15px] leading-[1.75];
+  }
+
+  .prose-custom a {
+    @apply text-brand-blue-mid underline underline-offset-2 hover:text-brand-blue;
+  }
+
+  .prose-custom strong {
+    @apply text-brand-navy font-medium;
+  }
+}
