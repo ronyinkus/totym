@@ -160,7 +160,7 @@ export default function PrivacyPage() {
           a California resident, the California Consumer Privacy Act (CCPA)
           provides additional rights regarding your personal information. To
           exercise any rights, email us at{" "}
-          <a href="mailto:hello@totymservices.com">hello@totymservices.com</a>
+          <a href="mailto:yinks@totymservices.com">yinks@totymservices.com</a>
           . We will respond within the time required by applicable law.
         </p>
 
@@ -192,7 +192,7 @@ export default function PrivacyPage() {
         <p>
           Questions about this policy or how we handle your information?
           Email{" "}
-          <a href="mailto:hello@totymservices.com">hello@totymservices.com</a>{" "}
+          <a href="mailto:yinks@totymservices.com">yinks@totymservices.com</a>{" "}
           or write to us at:
         </p>
         <p>

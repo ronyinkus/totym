@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Book a Consultation",
@@ -38,61 +39,15 @@ export default function ContactPage() {
                 a short pre-call questionnaire by email.
               </p>
 
-              {/*
-                =============================================================
-                CALENDLY EMBED GOES HERE
-                =============================================================
-                Replace the placeholder div below with your Calendly embed.
-
-                To get the embed code:
-                1. Sign up at calendly.com
-                2. Create an event type for "Free 20-minute consultation"
-                3. Click Share → Embed → Inline embed
-                4. Paste the provided script and div here
-
-                Typical inline embed looks like:
-
-                <div
-                  className="calendly-inline-widget"
-                  data-url="https://calendly.com/YOUR-HANDLE/consultation"
-                  style={{ minWidth: "320px", height: "700px" }}
-                />
-                <Script
-                  src="https://assets.calendly.com/assets/external/widget.js"
-                  strategy="lazyOnload"
-                />
-
-                (You'll need: import Script from "next/script")
-                =============================================================
-              */}
-
-              <div className="bg-brand-blue-wash border border-dashed border-brand-blue-light rounded-xl p-10 text-center">
-                <div className="w-12 h-12 rounded-lg bg-white mx-auto mb-4 flex items-center justify-center">
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="text-brand-blue"
-                  >
-                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                    <line x1="16" y1="2" x2="16" y2="6" />
-                    <line x1="8" y1="2" x2="8" y2="6" />
-                    <line x1="3" y1="10" x2="21" y2="10" />
-                  </svg>
-                </div>
-                <p className="text-sm font-medium text-brand-navy mb-1">
-                  Calendly widget goes here
-                </p>
-                <p className="text-xs text-slate-500 max-w-sm mx-auto">
-                  Replace this placeholder with your Calendly embed. See the
-                  comment in the source file for instructions.
-                </p>
-              </div>
+              <div
+                className="calendly-inline-widget"
+                data-url="https://calendly.com/yinks-totymservices"
+                style={{ minWidth: "320px", height: "700px" }}
+              />
+              <Script
+                src="https://assets.calendly.com/assets/external/widget.js"
+                strategy="lazyOnload"
+              />
             </div>
 
             <aside className="space-y-7">
@@ -101,15 +56,27 @@ export default function ContactPage() {
                   Prefer email?
                 </h3>
                 <a
-                  href="mailto:hello@totymservices.com"
+                  href="mailto:yinks@totymservices.com"
                   className="text-sm text-brand-blue-mid hover:text-brand-blue font-medium"
                 >
-                  hello@totymservices.com
+                  yinks@totymservices.com
                 </a>
                 <p className="text-xs text-slate-500 mt-2 leading-relaxed">
                   I reply to every email within one business day — usually
                   faster.
                 </p>
+              </div>
+
+              <div>
+                <h3 className="text-xs font-medium text-brand-navy uppercase tracking-widest mb-3">
+                  Prefer to call?
+                </h3>
+                <a
+                  href="tel:+15133608842"
+                  className="text-sm text-brand-blue-mid hover:text-brand-blue font-medium"
+                >
+                  513-360-8842
+                </a>
               </div>
 
               <div>

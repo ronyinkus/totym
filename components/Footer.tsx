@@ -88,10 +88,15 @@ export default function Footer() {
               <li>Mason, Ohio</li>
               <li>
                 <a
-                  href="mailto:hello@totymservices.com"
+                  href="mailto:yinks@totymservices.com"
                   className="hover:text-brand-navy"
                 >
-                  hello@totymservices.com
+                  yinks@totymservices.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:+15133608842" className="hover:text-brand-navy">
+                  513-360-8842
                 </a>
               </li>
             </ul>
