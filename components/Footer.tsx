@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,11 +8,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2.5 mb-3">
-              <div className="w-7 h-7 rounded-md bg-brand-blue flex items-center justify-center text-white font-medium text-xs">
-                T
-              </div>
+              <Image
+                src="/totym-finance-logo.jpg"
+                alt="TOTYM Finance"
+                width={40}
+                height={34}
+                className="h-8 w-auto object-contain"
+              />
               <span className="font-medium text-brand-navy text-sm">
-                TOTYM Bookkeeping
+                TOTYM Finance
               </span>
             </div>
             <p className="text-xs text-slate-500 leading-relaxed">

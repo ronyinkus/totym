@@ -36,7 +36,7 @@ export default function PrivacyPage() {
           TOTYM Bookkeeping Services LLC (&ldquo;TOTYM,&rdquo; &ldquo;we,&rdquo;
           &ldquo;our,&rdquo; or &ldquo;us&rdquo;) respects your privacy. This
           Privacy Policy explains what information we collect when you visit
-          our website at totymservices.com (the &ldquo;Site&rdquo;) or engage
+          our website at totymfinance.com (the &ldquo;Site&rdquo;) or engage
           us for bookkeeping or related services, how we use that information,
           and the choices you have.
         </p>

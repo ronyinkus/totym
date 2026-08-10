@@ -38,7 +38,7 @@ export default function TermsPage() {
       <div className="prose-custom">
         <p>
           These Terms of Service (&ldquo;Terms&rdquo;) govern your use of the
-          website at totymservices.com (the &ldquo;Site&rdquo;), operated by
+          website at totymfinance.com (the &ldquo;Site&rdquo;), operated by
           TOTYM Bookkeeping Services LLC (&ldquo;TOTYM,&rdquo;
           &ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;). By
           accessing or using the Site, you agree to these Terms. If you do

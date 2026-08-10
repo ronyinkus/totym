@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blog-posts";
 
-const SITE_URL = "https://totymservices.com";
+const SITE_URL = "https://www.totymfinance.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [

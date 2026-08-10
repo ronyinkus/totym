@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const navLinks = [
@@ -17,10 +18,15 @@ export default function Header() {
     <header className="border-b border-slate-200 bg-white sticky top-0 z-50">
       <div className="container-wide flex items-center justify-between h-16">
         <Link href="/" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-brand-blue flex items-center justify-center text-white font-medium text-sm">
-            T
-          </div>
-          <span className="font-medium text-brand-navy">TOTYM Bookkeeping</span>
+          <Image
+            src="/totym-finance-logo.jpg"
+            alt="TOTYM Finance"
+            width={44}
+            height={37}
+            className="h-9 w-auto object-contain"
+            priority
+          />
+          <span className="font-medium text-brand-navy">TOTYM Finance</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-7 text-sm">
