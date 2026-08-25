@@ -14,7 +14,7 @@ export default function Post() {
   return (
     <BlogPostLayout post={post}>
       <p>
-        Every solopreneur eventually has the same uncomfortable conversation
+        Every small business owner eventually has the same uncomfortable conversation
         with themselves. It usually happens somewhere between a 2 AM receipt
         hunt and a confused email from a CPA. The question: how much should I
         actually be spending on bookkeeping, and is what I&apos;m doing now
@@ -28,7 +28,7 @@ export default function Post() {
 
       <h2>The three tiers of &ldquo;how you handle your books&rdquo;</h2>
       <p>
-        Every solopreneur falls into one of three buckets, whether
+        Every small business owner falls into one of three buckets, whether
         they&apos;ve thought about it or not:
       </p>
       <p>
@@ -51,7 +51,7 @@ export default function Post() {
         to roughly 30 minutes per month.
       </p>
       <p>
-        Most solopreneurs start at Tier 1, move to Tier 2 when the mess
+        Most small business owners start at Tier 1, move to Tier 2 when the mess
         becomes unmanageable, and move to Tier 3 when their time becomes too
         valuable to spend on books. The question isn&apos;t whether
         you&apos;ll eventually need bookkeeping help — it&apos;s how long
@@ -62,7 +62,7 @@ export default function Post() {
       <p>
         The sticker price of doing your own books is $0 to $75/month. That&apos;s
         the easy number. The harder number is the true cost when you include
-        the things most solopreneurs don&apos;t count.
+        the things most small business owners don&apos;t count.
       </p>
       <p>
         <strong>Your time, at your billing rate.</strong> If you bill clients
@@ -76,7 +76,7 @@ export default function Post() {
       </p>
       <p>
         <strong>Errors and missed deductions.</strong> Disorganized books
-        miss legitimate deductions. The average solopreneur loses
+        miss legitimate deductions. The average small business owner loses
         $3,000-$8,000/year in unclaimed deductions from poor categorization
         and lost receipts.
       </p>
@@ -86,11 +86,11 @@ export default function Post() {
         for clean books.
       </p>
       <p>
-        Add the real components, and a lot of &ldquo;DIY&rdquo; solopreneurs
+        Add the real components, and a lot of &ldquo;DIY&rdquo; small business owners
         are actually spending $500-1,500/month when you count it honestly.
       </p>
 
-      <h2>What bookkeepers actually charge solopreneurs</h2>
+      <h2>What bookkeepers actually charge small businesses</h2>
       <p>
         The public ranges for professional bookkeeping for solo operators
         land roughly here, based on industry data and what you&apos;ll see
@@ -107,7 +107,7 @@ export default function Post() {
         is assigned to you that month.
       </p>
       <p>
-        <strong>Independent bookkeepers serving solopreneurs: $200-600/month</strong>{" "}
+        <strong>Independent bookkeepers serving small businesses: $200-600/month</strong>{" "}
         depending on complexity. You work with one person directly. Quality
         varies widely. QuickBooks ProAdvisor certification is a reasonable
         filter.
@@ -195,7 +195,7 @@ export default function Post() {
       </p>
       <p>
         If you&apos;d like a real quote for your specific situation,{" "}
-        <Link href="/contact">a free 20-minute consultation</Link> is the
+        <Link href="/contact">a free 30-minute consultation</Link> is the
         fastest way to get one — with no pressure and no obligation either
         way.
       </p>

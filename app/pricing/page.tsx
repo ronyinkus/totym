@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Pricing",
   description:
-    "Transparent, custom pricing for solopreneur bookkeeping. Fixed monthly rates, no hourly billing, no surprise fees. Free consultation and written proposal within 48 hours.",
+    "Transparent, custom pricing for small-business bookkeeping. Fixed monthly rates, no hourly billing, no surprise fees. Free consultation and written proposal within 48 hours.",
 };
 
 const included = [
@@ -70,7 +70,7 @@ const factors = [
 const steps = [
   {
     number: "1",
-    title: "Free 20-minute consultation",
+    title: "Free 30-minute consultation",
     description:
       "We talk about your business, what your books look like today, and what you actually need. No pressure, no pitch.",
   },
@@ -92,7 +92,7 @@ const faqs = [
   {
     question: "Why won't you just tell me what it costs?",
     answer:
-      "I could publish a number, but it would either be too high for some clients or too low for others — and I'd rather give you an accurate quote than a misleading one. The 20-minute call is genuinely enough to scope most engagements.",
+      "I could publish a number, but it would either be too high for some clients or too low for others — and I'd rather give you an accurate quote than a misleading one. The 30-minute call is genuinely enough to scope most engagements.",
   },
   {
     question: "Does the price change month to month?",
@@ -127,8 +127,8 @@ export default function PricingPage() {
             Pricing built around your business — not a rate card.
           </h1>
           <p className="text-[15px] leading-[1.7] text-slate-600 mb-7 max-w-xl">
-            Every solopreneur&apos;s books look a little different. That&apos;s
-            why every engagement gets a custom proposal after a free 20-minute
+            Every small business&apos;s books look a little different. That&apos;s
+            why every engagement gets a custom proposal after a free 30-minute
             consultation — with fixed monthly pricing and no surprises.
           </p>
           <Link href="/contact" className="btn-primary">
@@ -146,7 +146,7 @@ export default function PricingPage() {
           </h2>
           <p className="text-[15px] leading-[1.75] text-slate-600 max-w-2xl mb-4">
             Most bookkeepers either publish rigid tiers or quote you hourly.
-            Neither works well for solopreneurs. Rigid tiers force you into a
+            Neither works well for small businesses. Rigid tiers force you into a
             box that may not fit — you end up paying for things you don&apos;t
             need or scrambling for things that aren&apos;t included. Hourly
             billing turns every question into a meter running, which means you
@@ -210,7 +210,7 @@ export default function PricingPage() {
           <p className="text-[15px] leading-[1.75] text-slate-600 max-w-2xl mb-7">
             A few factors shape what your monthly or project price looks like.
             None of these are gotchas — they&apos;re just the honest variables
-            that make each solopreneur&apos;s books different.
+            that make each small business&apos;s books different.
           </p>
           <div className="flex flex-col gap-3">
             {factors.map((factor) => (
@@ -289,7 +289,7 @@ export default function PricingPage() {
             Get a real price for your real situation.
           </h2>
           <p className="text-[14px] leading-[1.7] text-brand-blue-light max-w-lg mx-auto mb-6">
-            A free 20-minute call and a written proposal within 48 hours. No
+            A free 30-minute call and a written proposal within 48 hours. No
             pressure, no cost, and no obligation either way.
           </p>
           <Link

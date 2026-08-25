@@ -23,7 +23,7 @@ export default function Post() {
       </p>
       <p>
         Here&apos;s the honest comparison, from someone who uses both and has
-        watched dozens of solopreneurs pick the wrong one.
+        watched dozens of small business owners pick the wrong one.
       </p>
 
       <h2>The short version</h2>
@@ -152,7 +152,7 @@ export default function Post() {
         in savings becomes a several-hundred-dollar tax.
       </p>
       <p>
-        For most solopreneurs who are serious about their business, QuickBooks
+        For most small business owners who are serious about their business, QuickBooks
         Online Simple Start is the right starting point — even if you
         don&apos;t &ldquo;need&rdquo; all its features today.
       </p>
@@ -176,10 +176,10 @@ export default function Post() {
         </li>
         <li>
           <strong>Advanced</strong> is for larger businesses with custom
-          workflows — overkill for almost every solopreneur
+          workflows — overkill for almost every small business
         </li>
       </ul>
-      <p>Most of my solopreneur clients are on Simple Start or Essentials. Very few need Plus, and none need Advanced.</p>
+      <p>Most of my small-business clients are on Simple Start or Essentials. Very few need Plus, and none need Advanced.</p>
 
       <h2>Getting the ProAdvisor discount</h2>
       <p>
@@ -192,7 +192,7 @@ export default function Post() {
         If you&apos;re setting up QuickBooks Online for the first time or
         considering a switch, reach out before you click &ldquo;subscribe&rdquo;
         on the Intuit website.{" "}
-        <Link href="/contact">A free 20-minute consultation</Link> is enough
+        <Link href="/contact">A free 30-minute consultation</Link> is enough
         for me to set you up with the ProAdvisor discount, get your chart of
         accounts configured correctly, and save you both money on the
         subscription and hours of setup frustration.

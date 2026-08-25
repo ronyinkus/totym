@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Meet the founder of TOTYM Bookkeeping Services LLC — a QuickBooks Certified ProAdvisor and Tax Expert helping solopreneurs in Mason, Ohio and nationwide keep their books clean and their weekends free.",
+    "Meet Yinks, founder of TOTYM Bookkeeping Services LLC — a QuickBooks Certified ProAdvisor and Tax Expert helping small businesses in Mason, Ohio and nationwide keep their books clean and their weekends free.",
 };
 
 /**
@@ -72,22 +72,21 @@ export default function AboutPage() {
                 earned and the impact I&apos;ve always wanted.
               </p>
 
-              <h2>Why solopreneurs</h2>
+              <h2>Why small businesses</h2>
               <p>
-                I have a soft spot for solopreneurs because I understand what
-                it feels like to build something from the ground up. When
-                you&apos;re running a business on your own, you&apos;re the
-                CEO, the customer service rep, the marketing team, and the
-                accountant — all at once.
+                I have a soft spot for small business owners because I understand
+                what it feels like to build something from the ground up. When
+                you&apos;re running a business, you&apos;re often the CEO, customer
+                service rep, marketing team, and accountant — all at once.
               </p>
               <p>
-                Most solopreneurs don&apos;t need a big accounting firm. They
+                Most small businesses don&apos;t need a big accounting firm. They
                 need someone who speaks their language, understands their
                 challenges, respects their time, and helps them stay compliant
                 without the overwhelm.
               </p>
               <p>
-                My goal is to give solopreneurs clarity, confidence, and clean
+                My goal is to give small business owners clarity, confidence, and clean
                 books so they can focus on the work they&apos;re passionate
                 about — not the paperwork they dread.
               </p>
@@ -128,28 +127,24 @@ export default function AboutPage() {
 
               <h2>A little about me</h2>
               <p>
-                I&apos;m a mother, a business owner, and someone who believes
-                deeply in doing work that matters. I&apos;m also a Tax Expert
-                with years of experience helping families and small businesses
-                navigate everything from self-employment taxes to IRS letters
-                to financial organization.
+                Hi, I&apos;m Yinks — QuickBooks Certified ProAdvisor, Tax Expert,
+                and founder of TOTYM Bookkeeping Services LLC in Mason, Ohio.
               </p>
               <p>
-                I value integrity, clarity, and peace — and I bring those same
-                values into the way I serve my clients.
+                I&apos;m a mother, a business owner, and someone who believes in
+                doing work rooted in integrity, clarity, and peace. I bring
+                those same values into every client relationship.
               </p>
               <p>
                 When I&apos;m not working, you&apos;ll find me celebrating
-                family milestones, planning events, supporting my kids
-                journey, or helping others stay organized and financially
-                grounded.
+                family milestones, planning trips and events, supporting my
+                kids&apos; journeys, or helping others stay organized and
+                financially grounded. I&apos;m a growth-minded connector who loves
+                conversations that uplift, inspire, and move people forward.
               </p>
               <p>
-                <em>
-                  TOTYM stands for &ldquo;Time of the Year Moments&rdquo; —
-                  and this business is one of mine. I&apos;m honored to help
-                  others create theirs.
-                </em>
+                This business is my moment — and I&apos;m honored to support
+                others in creating theirs.
               </p>
             </div>
           </div>
@@ -218,7 +213,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-[14px] leading-[1.7] text-brand-blue-light max-w-lg mx-auto mb-6">
             The best way to know if we&apos;re a fit is a short conversation.
-            Free 20 minutes, no pressure either way.
+            Free 30 minutes, no pressure either way.
           </p>
           <Link
             href="/contact"

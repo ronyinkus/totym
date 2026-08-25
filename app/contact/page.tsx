@@ -5,7 +5,7 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Book a Consultation",
   description:
-    "Book a free 20-minute consultation with TOTYM Bookkeeping Services LLC. QuickBooks-certified bookkeeping for solopreneurs in Mason, Ohio and nationwide.",
+    "Book a free 30-minute consultation with TOTYM Bookkeeping Services LLC. QuickBooks-certified bookkeeping for small businesses in Mason, Ohio and nationwide.",
 };
 
 export default function ContactPage() {
@@ -19,7 +19,7 @@ export default function ContactPage() {
             Let&apos;s talk about your books.
           </h1>
           <p className="text-[15px] leading-[1.7] text-slate-600 max-w-xl">
-            Book a free 20-minute consultation. We&apos;ll look at where your
+            Book a free 30-minute consultation. We&apos;ll look at where your
             books stand today and what it would take to get (and keep) them in
             shape — whether or not you end up working with me.
           </p>
@@ -86,7 +86,7 @@ export default function ContactPage() {
                 <ul className="space-y-2 text-[13px] leading-[1.65] text-slate-600">
                   <li className="flex gap-2">
                     <span className="text-brand-blue mt-0.5">·</span>
-                    20 minutes, no pressure
+                    30 minutes, no pressure
                   </li>
                   <li className="flex gap-2">
                     <span className="text-brand-blue mt-0.5">·</span>
@@ -111,7 +111,7 @@ export default function ContactPage() {
                   Mason, Ohio
                   <br />
                   <span className="text-xs text-slate-500">
-                    Serving solopreneurs nationwide
+                    Serving small businesses nationwide
                   </span>
                 </p>
               </div>

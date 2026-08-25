@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Catch-Up Bookkeeping for Solopreneurs",
+  title: "Catch-Up Bookkeeping for Small Businesses",
   description:
-    "Behind on your books? Catch-up bookkeeping for solopreneurs from a QuickBooks-certified bookkeeper. Flat-fee pricing, no judgment, most projects complete in 2-4 weeks.",
+    "Behind on your books? Catch-up bookkeeping for small businesses from a QuickBooks-certified bookkeeper. Flat-fee pricing, no judgment, most projects complete in 2-4 weeks.",
 };
 
 export default function CatchUpBookkeepingPage() {
@@ -92,7 +92,7 @@ export default function CatchUpBookkeepingPage() {
         },
       ]}
       finalTitle="Let's get you current."
-      finalBody="Book a free 20-minute call. Walk me through what you have, and I'll tell you exactly what it'll take to get cleaned up."
+      finalBody="Book a free 30-minute call. Walk me through what you have, and I'll tell you exactly what it'll take to get cleaned up."
     />
   );
 }

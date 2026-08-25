@@ -32,14 +32,14 @@ export default function Home() {
                 QuickBooks Certified ProAdvisor
               </div>
               <TypewriterHeading
-                text={"Bookkeeping for solopreneurs who\u2019d rather be doing literally anything else."}
+                text={"Bookkeeping for small business owners who\u2019d rather be doing literally anything else."}
                 className="font-serif text-4xl md:text-5xl leading-[1.1] font-medium text-brand-navy mb-5"
               />
 
               <p className="text-[15px] leading-[1.7] text-slate-600 mb-7 max-w-lg">
                 QuickBooks-certified bookkeeping that keeps your books clean,
                 your taxes ready, and your weekends yours. Based in Mason,
-                Ohio. Serving solopreneurs everywhere.
+                Ohio. Serving small businesses nationwide.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link href="/contact" className="btn-primary">
@@ -85,7 +85,7 @@ export default function Home() {
           <p className="text-[15px] leading-[1.75] text-slate-600 max-w-2xl">
             You&apos;re running the whole operation — clients, deliverables,
             marketing, inbox, invoicing, taxes, and somewhere in there, you&apos;re
-            supposed to keep clean books. Most solopreneurs come to us with
+            supposed to keep clean books. Most small business owners come to us with
             some version of the same story: a shoebox of receipts, a
             QuickBooks account they opened but never really set up, or a
             spreadsheet that stopped making sense six months ago.
@@ -129,7 +129,7 @@ export default function Home() {
       <section className="py-16 md:py-20">
         <div className="container-wide">
           <h2 className="font-serif text-3xl font-medium text-brand-navy mb-8">
-            Why solopreneurs choose TOTYM Bookkeeping.
+            Why small businesses choose TOTYM Finance.
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <WhyItem
@@ -151,8 +151,8 @@ export default function Home() {
               }
             />
             <WhyItem
-              title="Solopreneur-focused"
-              description="I only work with solo operators. No corporate jargon, no bloated tiers, advice that fits how you work."
+              title="Small-business-focused"
+              description="I work with small business owners. No corporate jargon, no bloated tiers, advice that fits how you work."
               icon={
                 <svg
                   width="18"
@@ -201,7 +201,7 @@ export default function Home() {
             <StepCard
               number="1"
               title="Free consultation"
-              description="20 minutes to understand your business and your books. No pressure, no sales pitch."
+              description="30 minutes to understand your business and your books. No pressure, no sales pitch."
             />
             <StepCard
               number="2"
@@ -224,9 +224,9 @@ export default function Home() {
             Pricing built around your business.
           </h2>
           <p className="text-[15px] leading-[1.75] text-slate-600 max-w-2xl mb-4">
-            Every solopreneur&apos;s books look a little different. Some need a
+            Every small business&apos;s books look a little different. Some need a
             few dozen transactions categorized each month; others have multiple
-            income streams and want tighter reporting. After a free 20-minute
+            income streams and want tighter reporting. After a free 30-minute
             consultation, I&apos;ll send you a written proposal with fixed
             monthly pricing — no hourly billing, no surprise fees, and nothing
             you didn&apos;t agree to upfront.
@@ -248,7 +248,7 @@ export default function Home() {
             Let&apos;s get your books off your plate.
           </h2>
           <p className="text-[15px] leading-[1.7] text-brand-blue-light max-w-lg mx-auto mb-7">
-            A free 20-minute call. You&apos;ll walk away with clarity on where
+            A free 30-minute call. You&apos;ll walk away with clarity on where
             your books stand — whether or not you hire us.
           </p>
           <Link

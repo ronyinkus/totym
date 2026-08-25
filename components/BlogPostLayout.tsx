@@ -52,7 +52,7 @@ export default function BlogPostLayout({
             Want help applying this to your business?
           </h2>
           <p className="text-[13px] leading-[1.7] text-brand-blue-light max-w-md mx-auto mb-5">
-            Free 20-minute consultation, no obligation.
+            Free 30-minute consultation, no obligation.
           </p>
           <Link
             href="/contact"

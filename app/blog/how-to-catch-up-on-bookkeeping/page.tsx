@@ -25,7 +25,7 @@ export default function Post() {
       <p>
         Wherever you are on the &ldquo;how behind am I&rdquo; spectrum,
         here&apos;s the first thing worth knowing: this is the single most
-        common situation solopreneurs find themselves in. You are not alone,
+        common situation small business owners find themselves in. You are not alone,
         you are not uniquely disorganized, and you are not beyond help. What
         you need is a plan.
       </p>
@@ -74,7 +74,7 @@ export default function Post() {
       </p>
       <p>
         Ask yourself: What&apos;s the earliest period you actually need? For
-        most solopreneurs, the answer is &ldquo;the start of the current tax
+        most small business owners, the answer is &ldquo;the start of the current tax
         year&rdquo; — meaning if it&apos;s currently April 2026, you need
         clean books going back to January 1, 2026. If you&apos;re filing last
         year&apos;s taxes late, you also need 2025. If you&apos;re filing
@@ -84,7 +84,7 @@ export default function Post() {
         Here&apos;s the honest truth: you probably don&apos;t need to go back
         further than your open tax years. If you have clean records for the
         period your CPA needs to file, you can start monthly bookkeeping from
-        today forward and leave the distant past alone. Most solopreneurs
+        today forward and leave the distant past alone. Most small business owners
         scope too big and then feel overwhelmed. Scope only what you actually
         need.
       </p>
@@ -131,7 +131,7 @@ export default function Post() {
         starting point if your business is genuinely small.
       </p>
       <p>
-        <strong>A spreadsheet</strong> works surprisingly well for solopreneurs
+        <strong>A spreadsheet</strong> works surprisingly well for small business owners
         with fewer than about 20 transactions a month. It&apos;s not going to
         impress a CPA, but if you&apos;re honest about being simple, a
         well-structured spreadsheet beats an incomplete QuickBooks.
@@ -157,7 +157,7 @@ export default function Post() {
       </p>
       <p>
         A realistic pace for DIY catch-up is about two months of books per
-        hour of work, assuming a typical solopreneur volume. Three months
+        hour of work, assuming a typical small-business volume. Three months
         behind is an afternoon. Twelve months behind is a full weekend.
       </p>
 
@@ -182,7 +182,7 @@ export default function Post() {
       </p>
       <p>
         <strong>Your time is worth more than the cost.</strong> If you&apos;re
-        a solopreneur billing $100+/hour to clients, spending 20 hours
+        a small business owner billing $100+/hour to clients, spending 20 hours
         catching up books you&apos;ll still have to maintain is expensive in
         opportunity cost.
       </p>
@@ -201,14 +201,14 @@ export default function Post() {
       <h2>The bottom line</h2>
       <p>
         Being behind on bookkeeping is annoying, but it&apos;s fixable —
-        always. The solopreneurs who stay behind forever are the ones who
+        always. The small business owners who stay behind forever are the ones who
         never make a plan. The ones who catch up are the ones who define the
         scope, gather the documents, and either do the work or hire it out.
       </p>
       <p>
         If you&apos;d like help scoping what catch-up would look like for your
         specific situation,{" "}
-        <Link href="/contact">book a free 20-minute consultation</Link>.
+        <Link href="/contact">book a free 30-minute consultation</Link>.
         I&apos;ll tell you what&apos;s involved, how long it&apos;ll take, and
         what it costs — no pressure either way.
       </p>

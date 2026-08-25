@@ -20,7 +20,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-xs text-slate-500 leading-relaxed">
-              QuickBooks-certified bookkeeping for solopreneurs. Based in
+              QuickBooks-certified bookkeeping for small businesses. Based in
               Mason, Ohio.
             </p>
           </div>

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Monthly Bookkeeping for Solopreneurs",
+  title: "Monthly Bookkeeping for Small Businesses",
   description:
-    "Monthly bookkeeping for solopreneurs — categorization, reconciliation, and clean financial reports delivered every month. QuickBooks-certified.",
+    "Monthly bookkeeping for small businesses — categorization, reconciliation, and clean financial reports delivered every month. QuickBooks-certified.",
 };
 
 export default function MonthlyBookkeepingPage() {
@@ -12,7 +12,7 @@ export default function MonthlyBookkeepingPage() {
     <ServicePage
       breadcrumb="Services / Monthly Bookkeeping"
       headline="Clean books, every month, without thinking about it."
-      subhead="For solopreneurs who want their books handled on a steady monthly cadence — categorized, reconciled, reported, and ready whenever you need them."
+      subhead="For small business owners who want their books handled on a steady monthly cadence — categorized, reconciled, reported, and ready whenever you need them."
       whoForTitle="Who monthly bookkeeping is for."
       whoForBody="You're running a solo business and you need your books maintained consistently — not scrambled together once a year. Maybe you've tried doing it yourself and it fell off. Maybe your business is growing and the admin burden is getting real. Either way, you want a system that runs quietly in the background so you can focus on actual work."
       includedTitle="What's included every month."
@@ -73,7 +73,7 @@ export default function MonthlyBookkeepingPage() {
         {
           question: "How many transactions does monthly service cover?",
           answer:
-            "Transaction volume is one of the factors in your custom quote. Most solopreneurs fall in the range that's standard — we'll confirm on our call.",
+            "Transaction volume is one of the factors in your custom quote. Most small businesses fall in the standard range — we'll confirm on our call.",
         },
         {
           question: "Do I need QuickBooks Online?",
@@ -92,7 +92,7 @@ export default function MonthlyBookkeepingPage() {
         },
       ]}
       finalTitle="Ready to hand off the books?"
-      finalBody="Book a free 20-minute call. We'll look at what you have today and what a monthly cadence would actually cost."
+      finalBody="Book a free 30-minute call. We'll look at what you have today and what a monthly cadence would actually cost."
     />
   );
 }

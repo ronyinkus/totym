@@ -16,7 +16,7 @@ export default function Post() {
   return (
     <BlogPostLayout post={post}>
       <p>
-        Every bookkeeping task solopreneurs dread comes back to the same
+        Every bookkeeping task small business owners dread comes back to the same
         underlying question: what category does this go in? Categorization
         sounds simple, but it&apos;s where most DIY bookkeeping goes sideways.
         Good categorization means cleaner monthly reports, bigger (legitimate)
@@ -47,9 +47,9 @@ export default function Post() {
         then applying it consistently. Boring but effective.
       </p>
 
-      <h2>The categories that cover 90% of solopreneur expenses</h2>
+      <h2>The categories that cover 90% of small-business expenses</h2>
       <p>
-        Most solopreneurs can handle their bookkeeping with about 15-20
+        Most small business owners can handle their bookkeeping with about 15-20
         expense categories. Here are the ones that cover nearly everything:
       </p>
       <p>
@@ -124,7 +124,7 @@ export default function Post() {
         industry associations.
       </p>
       <p>
-        That&apos;s 15 categories. For most solopreneurs, this is enough. If
+        That&apos;s 15 categories. For most small business owners, this is enough. If
         you find yourself creating a 30th category for one weird transaction,
         you&apos;re probably overcomplicating it.
       </p>
@@ -132,7 +132,7 @@ export default function Post() {
       <h2>The home office deduction: worth doing, with rules</h2>
       <p>
         The home office deduction is one of the biggest opportunities
-        solopreneurs miss or mess up.
+        small business owners miss or mess up.
       </p>
       <p>
         <strong>The space must be used regularly and exclusively for business.</strong>{" "}
@@ -198,7 +198,7 @@ export default function Post() {
       </p>
 
       <h2>When it&apos;s worth hiring this out</h2>
-      <p>Most solopreneurs can categorize their own expenses with this framework. You should consider hiring it out if:</p>
+      <p>Most small business owners can categorize their own expenses with this framework. You should consider hiring it out if:</p>
       <ul>
         <li>Your transaction volume is getting high (100+ per month)</li>
         <li>You have inventory, contractors, or multiple revenue streams</li>
@@ -207,7 +207,7 @@ export default function Post() {
       </ul>
       <p>
         If any of that describes you,{" "}
-        <Link href="/contact">a free 20-minute consultation</Link> is a good
+        <Link href="/contact">a free 30-minute consultation</Link> is a good
         way to figure out whether monthly bookkeeping makes sense for your
         situation.
       </p>

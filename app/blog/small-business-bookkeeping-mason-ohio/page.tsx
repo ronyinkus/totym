@@ -21,7 +21,7 @@ export default function Post() {
         you&apos;re part of one of the densest small business communities in
         southwest Ohio. Warren County has one of the highest rates of new
         business formation in the state, and Mason specifically has a
-        quietly thriving population of solopreneurs, freelancers, and
+        quietly thriving population of small business owners, freelancers, and
         micro-businesses.
       </p>
       <p>
@@ -43,7 +43,7 @@ export default function Post() {
         has shifted in recent years — businesses with Ohio gross receipts
         under $150,000 owe no CAT, and the next tier has a modest flat fee.
         Above $1 million in Ohio receipts, the tax is calculated as a
-        percentage of receipts. Most solopreneurs never hit the CAT
+        percentage of receipts. Most small businesses never hit the CAT
         threshold, but if you cross it, it&apos;s easy to overlook because
         it&apos;s unlike other state taxes.
       </p>
@@ -51,7 +51,7 @@ export default function Post() {
         <strong>Ohio sales tax.</strong> If you sell products or certain
         taxable services to Ohio customers, you need to collect Ohio sales
         tax (currently 5.75% state, plus local add-ons bringing Mason-area
-        total to around 7%). Most pure service solopreneurs — consultants,
+        total to around 7%). Most pure service small businesses — consultants,
         coaches, freelance designers — don&apos;t owe sales tax. But if you
         sell physical products or digital products, verify your obligations
         before your first sale, not after.
@@ -60,7 +60,7 @@ export default function Post() {
         <strong>Mason local taxes.</strong> The City of Mason has a local
         income tax (currently around 1.12%), which applies to business net
         profit for businesses operating in Mason. This is one of the most
-        commonly missed filings for solopreneurs who move to Mason and
+        commonly missed filings for small business owners who move to Mason and
         don&apos;t realize the city has a local tax.
       </p>
       <p>
@@ -89,7 +89,7 @@ export default function Post() {
       </p>
       <p>
         <strong>Track mileage if you drive for business.</strong> Ohio
-        solopreneurs who visit clients, drive to Cincinnati for meetings,
+        small business owners who visit clients, drive to Cincinnati for meetings,
         or run business errands are leaving real money on the table if they
         don&apos;t track mileage.
       </p>
@@ -121,8 +121,8 @@ export default function Post() {
 
       <h2>When to hire a local bookkeeper vs. a remote one</h2>
       <p>
-        Most solopreneur bookkeeping can be done remotely. The work itself
-        doesn&apos;t require physical presence. Many Mason solopreneurs work
+        Most small-business bookkeeping can be done remotely. The work itself
+        doesn&apos;t require physical presence. Many Mason small business owners work
         with bookkeepers in other states and it works fine.
       </p>
       <p>That said, there are genuine advantages to working with someone local:</p>
@@ -147,21 +147,21 @@ export default function Post() {
         </li>
       </ul>
 
-      <h2>The bottom line for Mason solopreneurs</h2>
+      <h2>The bottom line for Mason small businesses</h2>
       <p>
         If you&apos;re running a small business in Mason, your bookkeeping
         priorities in order are: separate business and personal accounts,
         use real software, reconcile monthly, track mileage, stay current on
         estimated taxes, and file your Mason and Ohio returns correctly. Do
         those six things and you&apos;re ahead of probably 70% of
-        solopreneurs in the metro.
+        small business owners in the metro.
       </p>
       <p>
         If any of that feels like more than you want to handle alongside
         running your actual business, TOTYM Bookkeeping Services LLC is a QuickBooks-certified
-        bookkeeping service based right here in Mason, serving solopreneurs
+        bookkeeping service based right here in Mason, serving small businesses
         across the Cincinnati metro and nationally.{" "}
-        <Link href="/contact">Book a free 20-minute consultation</Link> and
+        <Link href="/contact">Book a free 30-minute consultation</Link> and
         we can talk about what your situation actually needs.
       </p>
     </BlogPostLayout>

@@ -5,7 +5,7 @@ import { blogPosts } from "@/lib/blog-posts";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Practical bookkeeping, tax prep, and small business advice for solopreneurs — from a QuickBooks Certified ProAdvisor based in Mason, Ohio.",
+    "Practical bookkeeping, tax prep, and small business advice from a QuickBooks Certified ProAdvisor based in Mason, Ohio.",
 };
 
 export default function BlogIndexPage() {
@@ -15,7 +15,7 @@ export default function BlogIndexPage() {
         <div className="container-narrow py-14 md:py-16">
           <p className="eyebrow mb-3">Blog</p>
           <h1 className="font-serif text-4xl md:text-5xl leading-[1.1] font-medium text-brand-navy mb-4">
-            Practical help for solopreneurs.
+            Practical help for small businesses.
           </h1>
           <p className="text-[15px] leading-[1.7] text-slate-600 max-w-xl">
             Plain-English writing on bookkeeping, taxes, software, and running
@@ -67,7 +67,7 @@ export default function BlogIndexPage() {
             Need help with your books, not more reading?
           </h2>
           <p className="text-[14px] leading-[1.7] text-brand-blue-light max-w-lg mx-auto mb-6">
-            Book a free 20-minute consultation. We&apos;ll look at your
+            Book a free 30-minute consultation. We&apos;ll look at your
             situation and figure out the right next step together.
           </p>
           <Link

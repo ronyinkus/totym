@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ServicePage from "@/components/ServicePage";
 
 export const metadata: Metadata = {
-  title: "Tax-Ready Financials for Solopreneurs",
+  title: "Tax-Ready Financials for Small Businesses",
   description:
-    "Year-end financials prepared the way CPAs actually want them. QuickBooks-certified bookkeeping for solopreneurs — so your tax filing is fast, accurate, and doesn't eat your January.",
+    "Year-end financials prepared the way CPAs actually want them. QuickBooks-certified bookkeeping for small businesses — so your tax filing is fast, accurate, and doesn't eat your January.",
 };
 
 export default function TaxReadyFinancialsPage() {
@@ -30,7 +30,7 @@ export default function TaxReadyFinancialsPage() {
         {
           title: "Mileage & home office documentation",
           description:
-            "Supporting documentation organized for common solopreneur deductions.",
+            "Supporting documentation organized for common small-business deductions.",
         },
         {
           title: "1099 prep support",
@@ -45,7 +45,7 @@ export default function TaxReadyFinancialsPage() {
         {
           title: "CPA referrals if needed",
           description:
-            "Don't have a tax preparer? I can connect you with CPAs I trust who work well with solopreneurs.",
+            "Don't have a tax preparer? I can connect you with CPAs I trust who work well with small businesses.",
         },
       ]}
       howTitle="How the year-end package works."
@@ -92,7 +92,7 @@ export default function TaxReadyFinancialsPage() {
         },
       ]}
       finalTitle="Make this tax season easy."
-      finalBody="Book a free 20-minute call. We'll look at where your books stand and plan a tax-ready timeline that actually works."
+      finalBody="Book a free 30-minute call. We'll look at where your books stand and plan a tax-ready timeline that actually works."
     />
   );
 }
