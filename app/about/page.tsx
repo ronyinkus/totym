@@ -127,10 +127,6 @@ export default function AboutPage() {
 
               <h2>A little about me</h2>
               <p>
-                Hi, I&apos;m Yinks — QuickBooks Certified ProAdvisor, Tax Expert,
-                and founder of TOTYM Bookkeeping Services LLC in Mason, Ohio.
-              </p>
-              <p>
                 I&apos;m a mother, a business owner, and someone who believes in
                 doing work rooted in integrity, clarity, and peace. I bring
                 those same values into every client relationship.
