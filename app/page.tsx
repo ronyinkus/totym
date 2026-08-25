@@ -15,17 +15,6 @@ export default function Home() {
       {/* Hero */}
       <section className="bg-brand-blue-wash">
         <div className="container-wide py-16 md:py-20">
-          <div className="mb-8 overflow-hidden rounded-xl border border-brand-blue-light bg-white shadow-sm">
-            <Image
-              src="/totym-finance-banner.jpg"
-              alt="TOTYM Finance — financial clarity and peace of mind for small business owners"
-              width={782}
-              height={135}
-              priority
-              sizes="(max-width: 768px) 100vw, 782px"
-              className="h-auto w-full"
-            />
-          </div>
           <div className="grid md:grid-cols-[1.2fr_1fr] gap-10 md:gap-14 items-center">
             <div>
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-brand-blue-light text-brand-blue-mid text-xs font-medium mb-5">
