@@ -60,95 +60,162 @@ export default function AboutPage() {
             <div className="prose-custom">
               <h2>How I got here</h2>
               <p>
-                After more than two decades in traditional 9–5 roles, I
-                reached a point where I knew I needed something different —
-                something that let me use my skills without sacrificing my
-                time, my peace, or my purpose.
+                My journey started at the University of Maryland, where I
+                earned my degree in Accounting. From the beginning, I knew
+                that accounting was more than just a career path for me. It
+                was an area I genuinely enjoyed and one where I believed I
+                could make a meaningful impact.
               </p>
               <p>
-                Over the years, I&apos;ve supported individuals and small
-                businesses through complex tax situations, financial cleanups,
-                and the kind of behind-the-scenes work that keeps everything
-                running smoothly. The part I loved most wasn&apos;t the
-                corporate structure — it was the people.
+                After graduating, my career took me into the world of
+                technology, where I became an Oracle Developer. What began as
+                a different direction professionally turned into a career
+                spanning more than two decades. Over the years, I&apos;ve
+                built extensive experience working with technology, systems,
+                data, problem-solving, and the complex processes that keep
+                organizations running efficiently.
               </p>
               <p>
-                Starting TOTYM Bookkeeping Services LLC is my way of taking
-                everything I&apos;ve learned — tax law, compliance,
-                organization, clarity, and real-world experience — and
-                building a business that gives me the flexibility I&apos;ve
-                earned and the impact I&apos;ve always wanted.
+                But while I was building my career in IT, I never lost sight
+                of my passion for accounting.
+              </p>
+              <p>
+                I continued to develop my knowledge and skills in accounting,
+                tax, financial processes, and compliance alongside my
+                professional career. I kept learning, upgrading myself, and
+                staying connected to the field because accounting was always
+                the area where I felt I could truly thrive.
+              </p>
+              <p>
+                Eventually, I realized that the combination of my accounting
+                background, technology experience, and years of professional
+                experience had given me something valuable: the ability to
+                bring both financial understanding and technology-driven
+                organization to the businesses I serve.
+              </p>
+              <p>
+                That realization led me to start TOTYM Bookkeeping Services
+                LLC.
+              </p>
+              <p>
+                TOTYM is the result of bringing together everything I&apos;ve
+                learned over the past two decades, including accounting,
+                technology, organization, compliance, problem-solving, and
+                real-world business experience, and turning it into a service
+                focused on helping people and small businesses feel more
+                confident about their finances.
+              </p>
+              <p>
+                For me, this isn&apos;t simply about keeping books. It&apos;s
+                about creating clarity, bringing order to the numbers, and
+                giving business owners the confidence to make better
+                decisions.
               </p>
 
               <h2>Why small businesses</h2>
               <p>
                 I have a soft spot for small business owners because I understand
                 what it feels like to build something from the ground up. When
-                you&apos;re running a business, you&apos;re often the CEO, customer
-                service rep, marketing team, and accountant — all at once.
+                you&apos;re running a business, you&apos;re often the CEO,
+                customer service representative, marketing team, operations
+                manager, and accountant, all at once.
               </p>
+              <p>And the financial side can quickly become overwhelming.</p>
               <p>
-                Most small businesses don&apos;t need a big accounting firm. They
-                need someone who speaks their language, understands their
-                challenges, respects their time, and helps them stay compliant
-                without the overwhelm.
+                Most small businesses don&apos;t need a large accounting firm
+                with layers of people and complicated processes. They need
+                someone who understands their world, listens to their
+                concerns, respects their time, and provides practical
+                financial support without making things more complicated than
+                they need to be.
               </p>
+              <p>That&apos;s where I want to make a difference.</p>
               <p>
-                My goal is to give small business owners clarity, confidence, and clean
-                books so they can focus on the work they&apos;re passionate
-                about — not the paperwork they dread.
+                My goal is to give small business owners clarity, confidence,
+                and clean, organized books so they can spend less time
+                worrying about paperwork and more time building the business
+                they&apos;re passionate about.
               </p>
 
               <h2>How I work</h2>
               <p>
-                I believe in keeping things simple, transparent, and
-                stress-free. Here&apos;s what you can expect when you work
-                with me:
+                I believe good financial support should feel simple,
+                transparent, and stress-free. When you work with me, you can
+                expect:
               </p>
               <ul>
                 <li>
-                  <strong>Clear communication</strong> — no jargon, no
-                  confusion, no guessing.
+                  <strong>Clear communication:</strong> No unnecessary jargon,
+                  confusion, or guesswork.
                 </li>
                 <li>
-                  <strong>Organized systems</strong> — so you always know
-                  where things stand.
+                  <strong>Organized systems:</strong> So you always understand
+                  where your finances stand.
                 </li>
                 <li>
-                  <strong>Accuracy and compliance</strong> — because clean
-                  books protect your business.
+                  <strong>Accuracy and compliance:</strong> Because reliable
+                  financial records are the foundation of a healthy business.
                 </li>
                 <li>
-                  <strong>A partnership mindset</strong> — I&apos;m here to
-                  support you, not judge you.
+                  <strong>A partnership mindset:</strong> I&apos;m here to
+                  support you, answer your questions, and help you move
+                  forward without judgment.
                 </li>
                 <li>
-                  <strong>Flexible scheduling</strong> — because life
-                  doesn&apos;t always fit into business hours.
+                  <strong>Technology-driven efficiency:</strong> Combining my
+                  accounting knowledge with more than two decades of
+                  experience working with technology and business systems.
+                </li>
+                <li>
+                  <strong>A personal approach:</strong> Because your business
+                  isn&apos;t just a set of numbers. It&apos;s something you&apos;ve
+                  invested your time, energy, and vision into.
                 </li>
               </ul>
               <p>
-                Whether you need monthly bookkeeping, a cleanup, or tax
-                support, I meet you where you are and help you move forward
-                with confidence.
+                Whether you need ongoing bookkeeping, financial cleanup, or
+                support getting your books organized, I meet you where you are
+                and help you move forward with confidence.
               </p>
 
               <h2>A little about me</h2>
               <p>
-                I&apos;m a mother, a business owner, and someone who believes in
-                doing work rooted in integrity, clarity, and peace. I bring
-                those same values into every client relationship.
+                I&apos;m a mother, a business owner, an accounting professional,
+                and a lifelong learner. I believe strongly in doing work with
+                integrity, creating clarity where there is confusion, and
+                building relationships based on trust.
               </p>
+              <p>
+                My career has taught me that success isn&apos;t just about
+                working harder. It&apos;s about continually growing, adapting,
+                learning new skills, and finding work that aligns with who you
+                are and the value you want to create.
+              </p>
+              <p>That&apos;s exactly what TOTYM represents for me.</p>
               <p>
                 When I&apos;m not working, you&apos;ll find me celebrating
                 family milestones, planning trips and events, supporting my
-                kids&apos; journeys, or helping others stay organized and
-                financially grounded. I&apos;m a growth-minded connector who loves
-                conversations that uplift, inspire, and move people forward.
+                children&apos;s journeys, or helping others stay organized and
+                financially grounded. I&apos;m a growth-minded person who enjoys
+                meaningful conversations, connecting with people, and helping
+                others move forward.
               </p>
               <p>
-                This business is my moment — and I&apos;m honored to support
-                others in creating theirs.
+                After more than two decades in IT and a lifelong passion for
+                accounting, starting TOTYM is my opportunity to bring those
+                two worlds together. I&apos;m using the experience I&apos;ve
+                gained, the knowledge I&apos;ve continued to build, and the
+                passion I&apos;ve always had for accounting to serve others.
+              </p>
+              <p>
+                This is more than a business for me. It&apos;s the next chapter
+                of a journey that started with accounting, grew through
+                technology, and has ultimately brought me back to where I
+                believe I can make the greatest impact.
+              </p>
+              <p>
+                I&apos;m excited to be here, and I&apos;m honored to help small
+                business owners create clarity, confidence, and room to grow.
               </p>
             </div>
           </div>
