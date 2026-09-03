@@ -41,7 +41,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-brand-blue-pale">
+            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-white">
               <Image
                 src="/yinks-profile.jpg"
                 alt="Yinks, founder of TOTYM Finance"

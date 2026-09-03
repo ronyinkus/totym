@@ -46,7 +46,7 @@ export default function AboutPage() {
       <section className="py-14 md:py-16">
         <div className="container-narrow">
           <div className="grid md:grid-cols-[1fr_1.4fr] gap-10 md:gap-14">
-            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-brand-blue-pale">
+            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-white">
               <Image
                 src="/yinks-profile.jpg"
                 alt="Yinks, founder of TOTYM Finance"
