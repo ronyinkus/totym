@@ -38,8 +38,7 @@ export default function AboutPage() {
           </h1>
           <p className="text-[15px] leading-[1.7] text-slate-600 max-w-xl">
             QuickBooks Certified ProAdvisor, Tax Expert, and founder of TOTYM
-            Bookkeeping Services LLC — the person who&apos;ll actually handle
-            your books. Based in Mason, Ohio.
+            Bookkeeping Services LLC.
           </p>
         </div>
       </section>
