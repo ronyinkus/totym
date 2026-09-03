@@ -5,11 +5,21 @@ export const metadata: Metadata = {
   title: "Monthly Bookkeeping for Small Businesses",
   description:
     "Monthly bookkeeping for small businesses — categorization, reconciliation, and clean financial reports delivered every month. QuickBooks-certified.",
+  alternates: { canonical: "/services/monthly-bookkeeping" },
+  openGraph: {
+    title: "Monthly Bookkeeping for Small Businesses",
+    description:
+      "Clean monthly books, reconciled accounts, and clear financial reports from a QuickBooks-certified bookkeeper.",
+    url: "/services/monthly-bookkeeping",
+    images: ["/totym-finance-banner.jpg"],
+  },
 };
 
 export default function MonthlyBookkeepingPage() {
   return (
     <ServicePage
+      path="/services/monthly-bookkeeping"
+      serviceType="Monthly Bookkeeping"
       breadcrumb="Services / Monthly Bookkeeping"
       headline="Clean books, every month, without thinking about it."
       subhead="For small business owners who want their books handled on a steady monthly cadence — categorized, reconciled, reported, and ready whenever you need them."

@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Blog",
   description:
     "Practical bookkeeping, tax prep, and small business advice from a QuickBooks Certified ProAdvisor based in Mason, Ohio.",
+  alternates: { canonical: "/blog" },
+  openGraph: {
+    title: "Small-Business Bookkeeping Resources",
+    description:
+      "Plain-English guidance about bookkeeping, tax preparation, and QuickBooks from a certified ProAdvisor.",
+    url: "/blog",
+    images: ["/totym-finance-banner.jpg"],
+  },
 };
 
 export default function BlogIndexPage() {

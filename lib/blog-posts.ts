@@ -5,6 +5,7 @@ export interface BlogPost {
   category: string;
   readTime: string;
   publishedAt: string;
+  updatedAt?: string;
 }
 
 export const blogPosts: BlogPost[] = [

@@ -5,11 +5,21 @@ export const metadata: Metadata = {
   title: "Catch-Up Bookkeeping for Small Businesses",
   description:
     "Behind on your books? Catch-up bookkeeping for small businesses from a QuickBooks-certified bookkeeper. Flat-fee pricing, no judgment, most projects complete in 2-4 weeks.",
+  alternates: { canonical: "/services/catch-up-bookkeeping" },
+  openGraph: {
+    title: "Catch-Up Bookkeeping for Small Businesses",
+    description:
+      "Get overdue books cleaned up, reconciled, and ready to use with flat-fee catch-up bookkeeping.",
+    url: "/services/catch-up-bookkeeping",
+    images: ["/totym-finance-banner.jpg"],
+  },
 };
 
 export default function CatchUpBookkeepingPage() {
   return (
     <ServicePage
+      path="/services/catch-up-bookkeeping"
+      serviceType="Catch-Up Bookkeeping"
       breadcrumb="Services / Catch-Up Bookkeeping"
       headline="However far behind you are, we can fix it."
       subhead="Three months behind. Twelve months behind. Never started. The books have gotten away from you — and you need them cleaned up without judgment, without a lecture, and without dragging it out."

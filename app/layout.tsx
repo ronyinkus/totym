@@ -25,6 +25,11 @@ export const metadata: Metadata = {
   description:
     "TOTYM Finance provides QuickBooks-certified bookkeeping, tax-ready financials, and catch-up bookkeeping for small business owners in Mason, Ohio and nationwide.",
   metadataBase: new URL("https://www.totymfinance.com"),
+  applicationName: "TOTYM Finance",
+  authors: [{ name: "Yinks", url: "https://www.totymfinance.com/about" }],
+  creator: "TOTYM Finance",
+  publisher: "TOTYM Bookkeeping Services LLC",
+  category: "Finance",
   openGraph: {
     title: "TOTYM Finance | Financial clarity for small business owners",
     description:
@@ -75,62 +80,96 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": ["ProfessionalService", "Organization"],
-              name: "TOTYM Finance",
-              legalName: "TOTYM Bookkeeping Services LLC",
-              alternateName: "TOTYM Bookkeeping",
-              url: "https://www.totymfinance.com",
-              logo: "https://www.totymfinance.com/totym-finance-logo.jpg",
-              image: "https://www.totymfinance.com/totym-finance-banner.jpg",
-              description:
-                "QuickBooks-certified bookkeeping, catch-up bookkeeping, and tax-ready financials for small business owners.",
-              telephone: "+1-513-360-8842",
-              email: "yinks@totymservices.com",
-              address: {
-                "@type": "PostalAddress",
-                addressLocality: "Mason",
-                addressRegion: "OH",
-                addressCountry: "US",
-              },
-              areaServed: [
-                { "@type": "City", name: "Mason" },
-                { "@type": "State", name: "Ohio" },
-                { "@type": "Country", name: "United States" },
+              "@graph": [
+                {
+                  "@type": ["ProfessionalService", "Organization"],
+                  "@id": "https://www.totymfinance.com/#organization",
+                  name: "TOTYM Finance",
+                  legalName: "TOTYM Bookkeeping Services LLC",
+                  alternateName: "TOTYM Bookkeeping",
+                  url: "https://www.totymfinance.com",
+                  logo: {
+                    "@type": "ImageObject",
+                    url: "https://www.totymfinance.com/totym-finance-logo.jpg",
+                    width: 255,
+                    height: 214,
+                  },
+                  image: "https://www.totymfinance.com/totym-finance-banner.jpg",
+                  description:
+                    "QuickBooks-certified bookkeeping, catch-up bookkeeping, payroll support, and tax-ready financials for small business owners.",
+                  telephone: "+1-513-360-8842",
+                  email: "yinks@totymservices.com",
+                  sameAs: [
+                    "https://www.linkedin.com/company/135325775/",
+                    "https://www.facebook.com/profile.php?id=61591698123902",
+                    "https://www.instagram.com/totymfinance/",
+                  ],
+                  address: {
+                    "@type": "PostalAddress",
+                    addressLocality: "Mason",
+                    addressRegion: "OH",
+                    addressCountry: "US",
+                  },
+                  areaServed: [
+                    { "@type": "City", name: "Mason" },
+                    { "@type": "AdministrativeArea", name: "Cincinnati metropolitan area" },
+                    { "@type": "State", name: "Ohio" },
+                    { "@type": "Country", name: "United States" },
+                  ],
+                  knowsAbout: [
+                    "QuickBooks Online",
+                    "QuickBooks Payroll",
+                    "monthly bookkeeping",
+                    "catch-up bookkeeping",
+                    "financial statement preparation",
+                    "small business bookkeeping",
+                  ],
+                  contactPoint: {
+                    "@type": "ContactPoint",
+                    telephone: "+1-513-360-8842",
+                    contactType: "sales and customer service",
+                    email: "yinks@totymservices.com",
+                    availableLanguage: "English",
+                    areaServed: "US",
+                  },
+                  hasCredential: [
+                    {
+                      "@type": "EducationalOccupationalCredential",
+                      name: "QuickBooks Online Level 2 Certification",
+                      credentialCategory: "professional certification",
+                      recognizedBy: { "@type": "Organization", name: "Intuit" },
+                    },
+                    {
+                      "@type": "EducationalOccupationalCredential",
+                      name: "QuickBooks Payroll Certification",
+                      credentialCategory: "professional certification",
+                      recognizedBy: { "@type": "Organization", name: "Intuit" },
+                    },
+                  ],
+                  hasOfferCatalog: {
+                    "@type": "OfferCatalog",
+                    name: "Bookkeeping services",
+                    itemListElement: [
+                      "Monthly bookkeeping",
+                      "Catch-up bookkeeping",
+                      "Tax-ready financials",
+                    ].map((name) => ({
+                      "@type": "Offer",
+                      itemOffered: { "@type": "Service", name },
+                    })),
+                  },
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://www.totymfinance.com/#website",
+                  url: "https://www.totymfinance.com",
+                  name: "TOTYM Finance",
+                  description:
+                    "Bookkeeping resources and services for small business owners.",
+                  inLanguage: "en-US",
+                  publisher: { "@id": "https://www.totymfinance.com/#organization" },
+                },
               ],
-              contactPoint: {
-                "@type": "ContactPoint",
-                telephone: "+1-513-360-8842",
-                contactType: "customer service",
-                email: "yinks@totymservices.com",
-                availableLanguage: "English",
-              },
-              hasOfferCatalog: {
-                "@type": "OfferCatalog",
-                name: "Bookkeeping services",
-                itemListElement: [
-                  {
-                    "@type": "Offer",
-                    itemOffered: {
-                      "@type": "Service",
-                      name: "Monthly bookkeeping",
-                    },
-                  },
-                  {
-                    "@type": "Offer",
-                    itemOffered: {
-                      "@type": "Service",
-                      name: "Catch-up bookkeeping",
-                    },
-                  },
-                  {
-                    "@type": "Offer",
-                    itemOffered: {
-                      "@type": "Service",
-                      name: "Tax-ready financials",
-                    },
-                  },
-                ],
-              },
             }),
           }}
         />

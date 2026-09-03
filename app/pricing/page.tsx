@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Pricing",
   description:
     "Transparent, custom pricing for small-business bookkeeping. Fixed monthly rates, no hourly billing, no surprise fees. Free consultation and written proposal within 48 hours.",
+  alternates: { canonical: "/pricing" },
+  openGraph: {
+    title: "Small-Business Bookkeeping Pricing",
+    description:
+      "Fixed monthly or project pricing tailored to your books, with a free consultation and written proposal.",
+    url: "/pricing",
+    images: ["/totym-finance-banner.jpg"],
+  },
 };
 
 const included = [
@@ -117,8 +125,23 @@ const faqs = [
 ];
 
 export default function PricingPage() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://www.totymfinance.com/pricing#faq",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: { "@type": "Answer", text: faq.answer },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       {/* Hero */}
       <section className="bg-brand-blue-wash">
         <div className="container-narrow py-16 md:py-20">

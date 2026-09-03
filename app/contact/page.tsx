@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Book a Consultation",
   description:
     "Book a free 30-minute consultation with TOTYM Bookkeeping Services LLC. QuickBooks-certified bookkeeping for small businesses in Mason, Ohio and nationwide.",
+  alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Book a Free Bookkeeping Consultation",
+    description:
+      "Talk with a QuickBooks-certified bookkeeper about what it will take to get your small-business books in shape.",
+    url: "/contact",
+    images: ["/totym-finance-banner.jpg"],
+  },
 };
 
 export default function ContactPage() {

@@ -10,14 +10,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/pricing",
     "/contact",
     "/blog",
+    "/privacy",
+    "/terms",
     "/services/monthly-bookkeeping",
     "/services/catch-up-bookkeeping",
     "/services/tax-ready-financials",
   ].map((path) => ({
     url: `${SITE_URL}${path}`,
-    lastModified: new Date(),
+    lastModified: new Date("2026-09-03"),
     changeFrequency: "monthly" as const,
-    priority: path === "" ? 1.0 : 0.8,
+    priority: path === "" ? 1.0 : path === "/privacy" || path === "/terms" ? 0.2 : 0.8,
   }));
 
   const blogPages = blogPosts.map((post) => ({

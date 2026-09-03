@@ -5,11 +5,21 @@ export const metadata: Metadata = {
   title: "Tax-Ready Financials for Small Businesses",
   description:
     "Year-end financials prepared the way CPAs actually want them. QuickBooks-certified bookkeeping for small businesses — so your tax filing is fast, accurate, and doesn't eat your January.",
+  alternates: { canonical: "/services/tax-ready-financials" },
+  openGraph: {
+    title: "Tax-Ready Financials for Small Businesses",
+    description:
+      "Clean, reconciled year-end financials organized for an efficient handoff to your tax preparer.",
+    url: "/services/tax-ready-financials",
+    images: ["/totym-finance-banner.jpg"],
+  },
 };
 
 export default function TaxReadyFinancialsPage() {
   return (
     <ServicePage
+      path="/services/tax-ready-financials"
+      serviceType="Tax-Ready Financials"
       breadcrumb="Services / Tax-Ready Financials"
       headline="Your CPA's new favorite client."
       subhead="Year-end financials prepared exactly the way tax preparers want them — so your filing is fast, your CPA isn't chasing you for documents, and January doesn't eat your whole month."

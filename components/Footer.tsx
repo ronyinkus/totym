@@ -23,6 +23,27 @@ export default function Footer() {
               QuickBooks-certified bookkeeping for small businesses. Based in
               Mason, Ohio.
             </p>
+            <div
+              className="mt-5 flex items-center gap-3"
+              aria-label="QuickBooks certifications"
+            >
+              <Image
+                src="/quickbooks-level-2-certified.png"
+                alt="Intuit QuickBooks Online Level 2 Certified ProAdvisor badge"
+                width={80}
+                height={80}
+                sizes="80px"
+                className="h-20 w-20 object-contain"
+              />
+              <Image
+                src="/quickbooks-payroll-certified.png"
+                alt="Intuit QuickBooks Payroll Certified ProAdvisor badge"
+                width={80}
+                height={80}
+                sizes="80px"
+                className="h-20 w-20 object-contain"
+              />
+            </div>
           </div>
 
           <div>

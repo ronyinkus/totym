@@ -5,6 +5,8 @@ type Step = { number: string; title: string; description: string };
 type FAQ = { question: string; answer: string };
 
 export interface ServicePageProps {
+  path: string;
+  serviceType: string;
   breadcrumb: string;
   headline: string;
   subhead: string;
@@ -20,6 +22,8 @@ export interface ServicePageProps {
 }
 
 export default function ServicePage({
+  path,
+  serviceType,
   breadcrumb,
   headline,
   subhead,
@@ -33,8 +37,45 @@ export default function ServicePage({
   finalTitle,
   finalBody,
 }: ServicePageProps) {
+  const url = `https://www.totymfinance.com${path}`;
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": `${url}#service`,
+        name: serviceType,
+        description: subhead,
+        url,
+        provider: { "@id": "https://www.totymfinance.com/#organization" },
+        areaServed: { "@type": "Country", name: "United States" },
+        audience: { "@type": "BusinessAudience", audienceType: "Small business owners" },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        mainEntity: faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: { "@type": "Answer", text: faq.answer },
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.totymfinance.com" },
+          { "@type": "ListItem", position: 2, name: serviceType, item: url },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       {/* Hero */}
       <section className="bg-brand-blue-wash">
         <div className="container-narrow py-16 md:py-20">

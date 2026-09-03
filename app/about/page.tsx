@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "Meet Yinks, founder of TOTYM Bookkeeping Services LLC — a QuickBooks Certified ProAdvisor and Tax Expert helping small businesses in Mason, Ohio and nationwide keep their books clean and their weekends free.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About Yinks, QuickBooks Certified ProAdvisor",
+    description:
+      "Meet the founder of TOTYM Finance, serving small businesses in Mason, Ohio and nationwide.",
+    url: "/about",
+    images: ["/totym-finance-banner.jpg"],
+  },
 };
 
 /**

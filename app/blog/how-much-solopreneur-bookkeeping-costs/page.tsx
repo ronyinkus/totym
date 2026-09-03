@@ -8,6 +8,16 @@ const post = getPostBySlug("how-much-solopreneur-bookkeeping-costs")!;
 export const metadata: Metadata = {
   title: post.title,
   description: post.description,
+  alternates: { canonical: `/blog/${post.slug}` },
+  openGraph: {
+    type: "article",
+    title: post.title,
+    description: post.description,
+    url: `/blog/${post.slug}`,
+    publishedTime: post.publishedAt,
+    authors: ["Yinks"],
+    images: ["/totym-finance-banner.jpg"],
+  },
 };
 
 export default function Post() {
