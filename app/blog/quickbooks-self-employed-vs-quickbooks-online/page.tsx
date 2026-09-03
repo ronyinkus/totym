@@ -45,7 +45,7 @@ export default function Post() {
       </p>
       <p>
         <strong>QuickBooks Online</strong> is designed for businesses that
-        need actual bookkeeping — reconciled accounts, financial reports,
+        need actual bookkeeping: reconciled accounts, financial reports,
         multi-account support, and the ability to work with a bookkeeper or
         CPA. It does more and costs more.
       </p>
@@ -60,18 +60,18 @@ export default function Post() {
       <h2>What QuickBooks Self-Employed actually does</h2>
       <p>Self-Employed is built around three core features:</p>
       <p>
-        <strong>Transaction categorization</strong> — It connects to your
+        <strong>Transaction categorization:</strong> It connects to your
         bank and credit card accounts, pulls in transactions, and lets you
         swipe each one as Business or Personal. Business transactions get
         assigned a Schedule C category.
       </p>
       <p>
-        <strong>Mileage tracking</strong> — A built-in mobile app tracks
+        <strong>Mileage tracking:</strong> A built-in mobile app tracks
         driving and lets you mark each trip business or personal. At year-end,
         it gives you a mileage summary for your taxes.
       </p>
       <p>
-        <strong>Quarterly tax estimates</strong> — Based on your income and
+        <strong>Quarterly tax estimates:</strong> Based on your income and
         expenses, it estimates your quarterly estimated tax payments.
       </p>
       <p>
@@ -139,7 +139,7 @@ export default function Post() {
       </ul>
       <p>
         The honest rule of thumb: if you&apos;re asking the question
-        &ldquo;am I big enough for QuickBooks Online?&rdquo; — you probably
+        &ldquo;am I big enough for QuickBooks Online?&rdquo; you probably
         are.
       </p>
 
@@ -163,7 +163,7 @@ export default function Post() {
       </p>
       <p>
         For most small business owners who are serious about their business, QuickBooks
-        Online Simple Start is the right starting point — even if you
+        Online Simple Start is the right starting point, even if you
         don&apos;t &ldquo;need&rdquo; all its features today.
       </p>
 
@@ -186,7 +186,7 @@ export default function Post() {
         </li>
         <li>
           <strong>Advanced</strong> is for larger businesses with custom
-          workflows — overkill for almost every small business
+          workflows, which is overkill for almost every small business
         </li>
       </ul>
       <p>Most of my small-business clients are on Simple Start or Essentials. Very few need Plus, and none need Advanced.</p>
@@ -195,7 +195,7 @@ export default function Post() {
       <p>
         One thing Intuit doesn&apos;t advertise: if you subscribe to
         QuickBooks Online through a certified ProAdvisor, you can get
-        meaningfully better pricing — often 30-50% off the standard monthly
+        meaningfully better pricing, often 30-50% off the standard monthly
         rate for the life of the subscription.
       </p>
       <p>

@@ -92,7 +92,7 @@ const steps = [
     number: "3",
     title: "Yes, no, or questions",
     description:
-      "If it's a fit, we sign and start. If it's not, no hard feelings — I'd rather refer you to someone better suited than take work that won't serve you.",
+      "If it's a fit, we sign and start. If it's not, no hard feelings. I'd rather refer you to someone better suited than take work that won't serve you.",
   },
 ];
 
@@ -100,12 +100,12 @@ const faqs = [
   {
     question: "Why won't you just tell me what it costs?",
     answer:
-      "I could publish a number, but it would either be too high for some clients or too low for others — and I'd rather give you an accurate quote than a misleading one. The 30-minute call is genuinely enough to scope most engagements.",
+      "I could publish a number, but it would either be too high for some clients or too low for others, and I'd rather give you an accurate quote than a misleading one. The 30-minute call is genuinely enough to scope most engagements.",
   },
   {
     question: "Does the price change month to month?",
     answer:
-      "No. Your monthly price is fixed for the engagement. If your business grows substantially (more accounts, much higher volume), we revisit the scope together — but nothing changes without a conversation first.",
+      "No. Your monthly price is fixed for the engagement. If your business grows substantially (more accounts, much higher volume), we revisit the scope together, but nothing changes without a conversation first.",
   },
   {
     question: "Are there any add-on fees?",
@@ -115,7 +115,7 @@ const faqs = [
   {
     question: "Do I pay for the software separately?",
     answer:
-      "QuickBooks Online is billed directly by Intuit — I can get you a ProAdvisor discount on the subscription, but the software fee is yours. My service fee is separate.",
+      "QuickBooks Online is billed directly by Intuit. I can get you a ProAdvisor discount on the subscription, but the software fee is yours. My service fee is separate.",
   },
   {
     question: "How do I pay?",
@@ -147,12 +147,12 @@ export default function PricingPage() {
         <div className="container-narrow py-16 md:py-20">
           <p className="eyebrow mb-3">Pricing</p>
           <h1 className="font-serif text-4xl md:text-5xl leading-[1.1] font-medium text-brand-navy mb-5 max-w-2xl">
-            Pricing built around your business — not a rate card.
+            Pricing built around your business, not a rate card.
           </h1>
           <p className="text-[15px] leading-[1.7] text-slate-600 mb-7 max-w-xl">
             Every small business&apos;s books look a little different. That&apos;s
             why every engagement gets a custom proposal after a free 30-minute
-            consultation — with fixed monthly pricing and no surprises.
+            consultation, with fixed monthly pricing and no surprises.
           </p>
           <Link href="/contact" className="btn-primary">
             Book a free consultation
@@ -170,7 +170,7 @@ export default function PricingPage() {
           <p className="text-[15px] leading-[1.75] text-slate-600 max-w-2xl mb-4">
             Most bookkeepers either publish rigid tiers or quote you hourly.
             Neither works well for small businesses. Rigid tiers force you into a
-            box that may not fit — you end up paying for things you don&apos;t
+            box that may not fit. You end up paying for things you don&apos;t
             need or scrambling for things that aren&apos;t included. Hourly
             billing turns every question into a meter running, which means you
             stop asking questions, which is the opposite of what a good
@@ -232,7 +232,7 @@ export default function PricingPage() {
           </h2>
           <p className="text-[15px] leading-[1.75] text-slate-600 max-w-2xl mb-7">
             A few factors shape what your monthly or project price looks like.
-            None of these are gotchas — they&apos;re just the honest variables
+            None of these are gotchas. They&apos;re just the honest variables
             that make each small business&apos;s books different.
           </p>
           <div className="flex flex-col gap-3">

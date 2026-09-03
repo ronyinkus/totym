@@ -41,7 +41,7 @@ export default function Post() {
       </p>
 
       <p>
-        This guide walks through how to actually catch up — whether you decide
+        This guide walks through how to actually catch up, whether you decide
         to do it yourself or hand it off.
       </p>
 
@@ -54,7 +54,7 @@ export default function Post() {
         First, pick one business bank account and one business credit card
         going forward. If you&apos;ve been running business expenses through
         personal accounts (or vice versa), that stops now. It doesn&apos;t
-        need to be a business-titled account on day one — a dedicated personal
+        need to be a business-titled account on day one. A dedicated personal
         account used only for business is a huge upgrade from mixed spending.
       </p>
       <p>
@@ -64,7 +64,7 @@ export default function Post() {
         receipt and email it to yourself with a short note on what it was for.
       </p>
       <p>
-        Third, start saving receipts. Not physically, necessarily — most banks
+        Third, start saving receipts. Not physically, necessarily, since most banks
         and credit cards now show enough detail that the receipt itself is
         only critical for items over $75 (the IRS threshold for requiring
         documentation). But for anything that looks like a deduction, save the
@@ -85,7 +85,7 @@ export default function Post() {
       <p>
         Ask yourself: What&apos;s the earliest period you actually need? For
         most small business owners, the answer is &ldquo;the start of the current tax
-        year&rdquo; — meaning if it&apos;s currently April 2026, you need
+        year,&rdquo; meaning if it&apos;s currently April 2026, you need
         clean books going back to January 1, 2026. If you&apos;re filing last
         year&apos;s taxes late, you also need 2025. If you&apos;re filing
         multiple years late, you need all of those years.
@@ -112,19 +112,19 @@ export default function Post() {
         business, same timeframe.
       </p>
       <p>
-        <strong>Payment processor records</strong> — if you use Stripe,
+        <strong>Payment processor records:</strong> If you use Stripe,
         PayPal, Square, Venmo for business, or any similar platform, you need
         the transaction exports from each one.
       </p>
       <p>
-        <strong>Receipts or records for significant expenses</strong> —
+        <strong>Receipts or records for significant expenses:</strong>
         anything over $75, anything unusual, anything you want to claim as a
         deduction that isn&apos;t obvious from the bank statement line item.
       </p>
       <p>
         Don&apos;t try to gather everything perfectly before starting. Get the
-        bank and credit card statements first — that&apos;s 80% of what you
-        need — and fill in the rest as you go.
+        bank and credit card statements first. That&apos;s 80% of what you
+        need, and you can fill in the rest as you go.
       </p>
 
       <h2>Step 4: Pick your tool</h2>
@@ -157,7 +157,7 @@ export default function Post() {
         ending balance on the statement, and then move to the next month.
       </p>
       <p>
-        This is tedious, not hard. The hardest part is categorization —
+        This is tedious, not hard. The hardest part is categorization because
         deciding whether that $47 charge was &ldquo;Office Supplies&rdquo; or
         &ldquo;Meals &amp; Entertainment&rdquo; or something else. My general
         rule: when in doubt, use a simple category, be consistent, and
@@ -182,7 +182,7 @@ export default function Post() {
       <p>
         This sanity check catches the big errors. If your P&amp;L shows you
         earned $20,000 when you know you earned $80,000, something&apos;s
-        wrong — probably a bank account you forgot to include.
+        wrong, probably because of a bank account you forgot to include.
       </p>
 
       <h2>When to hand it off</h2>
@@ -210,7 +210,7 @@ export default function Post() {
 
       <h2>The bottom line</h2>
       <p>
-        Being behind on bookkeeping is annoying, but it&apos;s fixable —
+        Being behind on bookkeeping is annoying, but it&apos;s fixable.
         always. The small business owners who stay behind forever are the ones who
         never make a plan. The ones who catch up are the ones who define the
         scope, gather the documents, and either do the work or hire it out.
@@ -220,7 +220,7 @@ export default function Post() {
         specific situation,{" "}
         <Link href="/contact">book a free 30-minute consultation</Link>.
         I&apos;ll tell you what&apos;s involved, how long it&apos;ll take, and
-        what it costs — no pressure either way.
+        what it costs, with no pressure either way.
       </p>
     </BlogPostLayout>
   );

@@ -19,7 +19,7 @@ interface TypewriterHeadingProps {
  * occupies layout from the start (opacity transitions, not DOM insertion), so
  * surrounding content does not shift while typing. Words (including their
  * trailing punctuation) are wrapped in non-breaking spans so characters never
- * split across lines — e.g. a trailing period always stays with its word.
+ * split across lines; e.g. a trailing period always stays with its word.
  *
  * Respects `prefers-reduced-motion`: when reduced motion is requested, the
  * full text is shown immediately.

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
  * PRIVACY POLICY
  * ============================================================================
  * IMPORTANT: This is a starter privacy policy tailored to a bookkeeping LLC.
- * It is NOT legal advice. Before launch, have an attorney review this — or
+ * It is NOT legal advice. Before launch, have an attorney review this or
  * generate a customized version through Termly (termly.io) or iubenda
  * (iubenda.com), both of which keep the policy updated as laws change.
  *
@@ -52,7 +52,7 @@ export default function PrivacyPage() {
         <p>
           <strong>Information from client engagements.</strong> If you become
           a client, we receive financial information necessary to perform our
-          services — including bank and credit card statements, invoices,
+          services, including bank and credit card statements, invoices,
           receipts, payroll records, and access to accounting software such
           as QuickBooks Online. We treat this information as confidential.
         </p>
@@ -91,17 +91,17 @@ export default function PrivacyPage() {
             confidentiality obligations consistent with this policy.
           </li>
           <li>
-            <strong>With your consent</strong> — for example, when you
+            <strong>With your consent:</strong> For example, when you
             authorize us to share information with your tax preparer, lender,
             or other professional.
           </li>
           <li>
-            <strong>Legal compliance</strong> — when required by law,
+            <strong>Legal compliance:</strong> When required by law,
             subpoena, court order, or to protect our rights, property, or
             safety.
           </li>
           <li>
-            <strong>Business transfers</strong> — in connection with a
+            <strong>Business transfers:</strong> In connection with a
             merger, acquisition, or sale of assets, subject to confidentiality
             protections.
           </li>
@@ -114,17 +114,17 @@ export default function PrivacyPage() {
         </p>
         <ul>
           <li>
-            <strong>QuickBooks Online (Intuit)</strong> — accounting platform
+            <strong>QuickBooks Online (Intuit):</strong> Accounting platform
             used to maintain client books
           </li>
           <li>
-            <strong>Calendly</strong> — scheduling consultations
+            <strong>Calendly:</strong> Scheduling consultations
           </li>
           <li>
-            <strong>Vercel</strong> — website hosting
+            <strong>Vercel:</strong> Website hosting
           </li>
           <li>
-            <strong>Email providers</strong> — to send and receive
+            <strong>Email providers:</strong> To send and receive
             correspondence
           </li>
         </ul>
@@ -136,7 +136,7 @@ export default function PrivacyPage() {
         <h2>How we protect your information</h2>
         <p>
           We use reasonable administrative, technical, and physical safeguards
-          designed to protect the information we collect — including encrypted
+          designed to protect the information we collect, including encrypted
           file transfers for sensitive documents, password-protected
           accounting software, and limited access on a need-to-know basis. No
           method of transmission or storage is 100% secure, but we work to

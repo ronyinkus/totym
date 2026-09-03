@@ -72,7 +72,7 @@ export default function Home() {
             You didn&apos;t start your business to become an accountant.
           </h2>
           <p className="text-[15px] leading-[1.75] text-slate-600 max-w-2xl">
-            You&apos;re running the whole operation — clients, deliverables,
+            You&apos;re running the whole operation: clients, deliverables,
             marketing, inbox, invoicing, taxes, and somewhere in there, you&apos;re
             supposed to keep clean books. Most small business owners come to us with
             some version of the same story: a shoebox of receipts, a
@@ -95,7 +95,7 @@ export default function Home() {
             <ServiceCard
               number="01"
               title="Monthly Bookkeeping"
-              description="We categorize transactions, reconcile accounts, and send clean monthly reports. A real person — not a support queue."
+              description="We categorize transactions, reconcile accounts, and send clean monthly reports. A real person, not a support queue."
               href="/services/monthly-bookkeeping"
             />
             <ServiceCard
@@ -217,7 +217,7 @@ export default function Home() {
             few dozen transactions categorized each month; others have multiple
             income streams and want tighter reporting. After a free 30-minute
             consultation, I&apos;ll send you a written proposal with fixed
-            monthly pricing — no hourly billing, no surprise fees, and nothing
+            monthly pricing with no hourly billing, no surprise fees, and nothing
             you didn&apos;t agree to upfront.
           </p>
           <Link
@@ -238,7 +238,7 @@ export default function Home() {
           </h2>
           <p className="text-[15px] leading-[1.7] text-brand-blue-light max-w-lg mx-auto mb-7">
             A free 30-minute call. You&apos;ll walk away with clarity on where
-            your books stand — whether or not you hire us.
+            your books stand, whether or not you hire us.
           </p>
           <Link
             href="/contact"

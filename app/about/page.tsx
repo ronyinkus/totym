@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Meet Yinks, founder of TOTYM Bookkeeping Services LLC — a QuickBooks Certified ProAdvisor and Tax Expert helping small businesses in Mason, Ohio and nationwide keep their books clean and their weekends free.",
+    "Meet Yinks, founder of TOTYM Bookkeeping Services LLC, a QuickBooks Certified ProAdvisor and Tax Expert helping small businesses in Mason, Ohio and nationwide keep their books clean and their weekends free.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: "About Yinks, QuickBooks Certified ProAdvisor",
@@ -243,9 +243,9 @@ export default function AboutPage() {
               </svg>
               <span>
                 <strong className="text-brand-navy font-medium">
-                  QuickBooks Certified ProAdvisor
+                  QuickBooks Certified ProAdvisor:
                 </strong>{" "}
-                — official Intuit certification for QuickBooks Online
+                Official Intuit certification for QuickBooks Online
                 expertise
               </span>
             </li>
@@ -265,9 +265,9 @@ export default function AboutPage() {
               </svg>
               <span>
                 <strong className="text-brand-navy font-medium">
-                  Tax Expert
+                  Tax Expert:
                 </strong>{" "}
-                — years of experience with self-employment taxes, IRS
+                Years of experience with self-employment taxes, IRS
                 correspondence, and financial organization for individuals
                 and small businesses
               </span>

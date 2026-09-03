@@ -32,7 +32,7 @@ export default function Post() {
       </p>
       <p>
         This post is the honest answer. No sales pitch, no fake ranges
-        designed to funnel you somewhere — just the real economics of the
+        designed to funnel you somewhere, just the real economics of the
         options in front of you.
       </p>
 
@@ -42,20 +42,20 @@ export default function Post() {
         they&apos;ve thought about it or not:
       </p>
       <p>
-        <strong>Tier 1 — DIY with a spreadsheet or free tool.</strong>{" "}
+        <strong>Tier 1: DIY with a spreadsheet or free tool.</strong>{" "}
         You&apos;re doing it yourself using Wave, a spreadsheet, or a shoebox
         you&apos;ll sort out at tax time. Your monthly cost in cash is near
         zero. Your cost in time is 2-8 hours per month, plus a panic at tax
         season.
       </p>
       <p>
-        <strong>Tier 2 — DIY with paid software.</strong> You&apos;re using
+        <strong>Tier 2: DIY with paid software.</strong> You&apos;re using
         QuickBooks Online or similar, doing the work yourself but with better
         tools. Your cash cost is $25-75/month for the software. Your time
         cost is 1-4 hours per month once you&apos;re set up.
       </p>
       <p>
-        <strong>Tier 3 — Hire a bookkeeper.</strong> Someone else handles the
+        <strong>Tier 3: Hire a bookkeeper.</strong> Someone else handles the
         categorization, reconciliation, and monthly reports. Your cash cost
         is the bookkeeper&apos;s fee plus the software. Your time cost drops
         to roughly 30 minutes per month.
@@ -64,7 +64,7 @@ export default function Post() {
         Most small business owners start at Tier 1, move to Tier 2 when the mess
         becomes unmanageable, and move to Tier 3 when their time becomes too
         valuable to spend on books. The question isn&apos;t whether
-        you&apos;ll eventually need bookkeeping help — it&apos;s how long
+        you&apos;ll eventually need bookkeeping help. It&apos;s how long
         you&apos;ll wait to get it.
       </p>
 
@@ -182,7 +182,7 @@ export default function Post() {
       </p>
       <p>
         <strong>If you&apos;ve been behind for more than three months,</strong>{" "}
-        the math changes — you&apos;re paying the cost of being behind on top
+        the math changes because you&apos;re paying the cost of being behind on top
         of whatever your current approach costs.
       </p>
 
@@ -206,7 +206,7 @@ export default function Post() {
       <p>
         If you&apos;d like a real quote for your specific situation,{" "}
         <Link href="/contact">a free 30-minute consultation</Link> is the
-        fastest way to get one — with no pressure and no obligation either
+        fastest way to get one, with no pressure and no obligation either
         way.
       </p>
     </BlogPostLayout>

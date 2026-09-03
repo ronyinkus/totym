@@ -29,7 +29,7 @@ export default function ContactPage() {
           <p className="text-[15px] leading-[1.7] text-slate-600 max-w-xl">
             Book a free 30-minute consultation. We&apos;ll look at where your
             books stand today and what it would take to get (and keep) them in
-            shape — whether or not you end up working with me.
+            shape, whether or not you end up working with me.
           </p>
         </div>
       </section>
@@ -70,7 +70,7 @@ export default function ContactPage() {
                   yinks@totymservices.com
                 </a>
                 <p className="text-xs text-slate-500 mt-2 leading-relaxed">
-                  I reply to every email within one business day — usually
+                  I reply to every email within one business day, usually
                   faster.
                 </p>
               </div>
@@ -136,7 +136,7 @@ export default function ContactPage() {
           </h2>
           <p className="text-[14px] leading-[1.7] text-slate-600 mb-5 max-w-2xl">
             Book the call anyway. There&apos;s no pressure, no obligation, and
-            no cost — and sometimes the easiest way to figure out what you need
+            no cost, and sometimes the easiest way to figure out what you need
             is to talk it through with someone who does this every day. If
             we&apos;re not the right fit, I&apos;ll say so and point you toward
             someone who is.

@@ -22,9 +22,9 @@ export default function CatchUpBookkeepingPage() {
       serviceType="Catch-Up Bookkeeping"
       breadcrumb="Services / Catch-Up Bookkeeping"
       headline="However far behind you are, we can fix it."
-      subhead="Three months behind. Twelve months behind. Never started. The books have gotten away from you — and you need them cleaned up without judgment, without a lecture, and without dragging it out."
+      subhead="Three months behind. Twelve months behind. Never started. The books have gotten away from you, and you need them cleaned up without judgment, without a lecture, and without dragging it out."
       whoForTitle="Who catch-up bookkeeping is for."
-      whoForBody="You're behind. Maybe tax season is coming and you're panicking. Maybe a lender asked for financials and you don't have them. Maybe you've been meaning to deal with it for months and it's finally time. Whatever got you here, you need someone to take the pile of receipts, bank statements, and half-started QuickBooks files and turn them into clean, usable books — fast."
+      whoForBody="You're behind. Maybe tax season is coming and you're panicking. Maybe a lender asked for financials and you don't have them. Maybe you've been meaning to deal with it for months and it's finally time. Whatever got you here, you need someone to take the pile of receipts, bank statements, and half-started QuickBooks files and turn them into clean, usable books fast."
       includedTitle="What catch-up bookkeeping includes."
       included={[
         {
@@ -45,7 +45,7 @@ export default function CatchUpBookkeepingPage() {
         {
           title: "Historical financial reports",
           description:
-            "P&L and balance sheet for the catch-up period — useful for taxes, loans, or your own clarity.",
+            "P&L and balance sheet for the catch-up period, useful for taxes, loans, or your own clarity.",
         },
         {
           title: "Transition plan",
@@ -70,7 +70,7 @@ export default function CatchUpBookkeepingPage() {
           number: "2",
           title: "Gather records",
           description:
-            "You share bank statements, credit card statements, and any receipts or records through secure document upload. I'll tell you exactly what I need — no overwhelming checklists.",
+            "You share bank statements, credit card statements, and any receipts or records through secure document upload. I'll tell you exactly what I need, with no overwhelming checklists.",
         },
         {
           number: "3",
@@ -93,7 +93,7 @@ export default function CatchUpBookkeepingPage() {
         {
           question: "What records do I need to have?",
           answer:
-            "At minimum, bank and credit card statements for the catch-up period. If you have QuickBooks data, even half-finished, that helps. Don't worry if it's messy — that's normal.",
+            "At minimum, bank and credit card statements for the catch-up period. If you have QuickBooks data, even half-finished, that helps. Don't worry if it's messy. That's normal.",
         },
         {
           question: "How fast can you turn it around?",

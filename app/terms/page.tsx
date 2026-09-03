@@ -8,16 +8,16 @@ export const metadata: Metadata = {
 
 /**
  * ============================================================================
- * TERMS OF SERVICE — WEBSITE USE
+ * TERMS OF SERVICE: WEBSITE USE
  * ============================================================================
  * IMPORTANT: This is a starter Terms of Service tailored to the public
  * website for a bookkeeping LLC. It is NOT legal advice. Before launch, have
- * an attorney review this — especially the limitation of liability,
+ * an attorney review this, especially the limitation of liability,
  * indemnification, and governing law sections.
  *
  * The actual SERVICE relationship with each client (scope, fees, liability,
  * confidentiality, termination) lives in a separate engagement letter signed
- * by both parties — NOT on this page.
+ * by both parties, NOT on this page.
  *
  * Update the EFFECTIVE_DATE constant when this policy is published or
  * substantively changed.
@@ -68,8 +68,8 @@ export default function TermsPage() {
         <h2>Service engagements</h2>
         <p>
           If you choose to retain TOTYM for bookkeeping or related services,
-          the terms of that engagement — including scope of work, fees,
-          deliverables, confidentiality, term, and termination — will be set
+          the terms of that engagement, including scope of work, fees,
+          deliverables, confidentiality, term, and termination, will be set
           out in a separate written engagement letter signed by both parties.
           Nothing on this Site constitutes an offer of professional services,
           and no engagement is formed until a signed engagement letter is in
@@ -88,8 +88,8 @@ export default function TermsPage() {
 
         <h2>Intellectual property</h2>
         <p>
-          The content of the Site — including text, graphics, logos, the
-          TOTYM name and brand, and the underlying code — is owned by TOTYM
+          The content of the Site, including text, graphics, logos, the
+          TOTYM name and brand, and the underlying code, is owned by TOTYM
           Bookkeeping Services LLC or its licensors and is protected by U.S.
           copyright and trademark law. You may view and share links to the
           Site for personal, non-commercial purposes. You may not copy,

@@ -43,7 +43,7 @@ export const metadata: Metadata = {
         url: "/totym-finance-banner.jpg",
         width: 782,
         height: 135,
-        alt: "TOTYM Finance — financial clarity and peace of mind for small business owners",
+        alt: "TOTYM Finance, financial clarity and peace of mind for small business owners",
       },
     ],
   },

@@ -13,7 +13,7 @@ export const blogPosts: BlogPost[] = [
     slug: "how-to-catch-up-on-bookkeeping",
     title: "How to Catch Up on Bookkeeping When You're Months (or Years) Behind",
     description:
-      "Behind on your bookkeeping? A step-by-step guide for small business owners to get their books current — whether you're three months or three years behind.",
+      "Behind on your bookkeeping? A step-by-step guide for small business owners to get their books current, whether you're three months or three years behind.",
     category: "Catch-Up",
     readTime: "7 min read",
     publishedAt: "2026-04-20",
@@ -32,7 +32,7 @@ export const blogPosts: BlogPost[] = [
     slug: "quickbooks-self-employed-vs-quickbooks-online",
     title: "QuickBooks Self-Employed vs. QuickBooks Online",
     description:
-      "A QuickBooks ProAdvisor breaks down the real differences between QuickBooks Self-Employed and QuickBooks Online — and which one actually fits your business.",
+      "A QuickBooks ProAdvisor breaks down the real differences between QuickBooks Self-Employed and QuickBooks Online and explains which one actually fits your business.",
     category: "Software",
     readTime: "7 min read",
     publishedAt: "2026-04-20",
@@ -41,7 +41,7 @@ export const blogPosts: BlogPost[] = [
     slug: "how-much-solopreneur-bookkeeping-costs",
     title: "How Much Should a Small Business Spend on Bookkeeping?",
     description:
-      "A transparent breakdown of what bookkeeping actually costs small businesses — DIY, software-only, and hiring a bookkeeper — plus how to decide what's right for you.",
+      "A transparent breakdown of what bookkeeping actually costs small businesses, including DIY, software-only, and hiring a bookkeeper, plus how to decide what's right for you.",
     category: "Pricing",
     readTime: "8 min read",
     publishedAt: "2026-04-20",

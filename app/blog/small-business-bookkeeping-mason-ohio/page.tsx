@@ -37,7 +37,7 @@ export default function Post() {
       <p>
         This is a plain-English guide for small business owners in Mason and
         the surrounding Cincinnati metro on the bookkeeping basics that
-        matter most — with the Ohio-specific considerations most generic
+        matter most, along with the Ohio-specific considerations most generic
         guides skip.
       </p>
 
@@ -50,7 +50,7 @@ export default function Post() {
         <strong>The Ohio Commercial Activity Tax (CAT).</strong> Ohio
         doesn&apos;t have a traditional corporate income tax; it has the CAT,
         which applies to businesses with Ohio gross receipts. The threshold
-        has shifted in recent years — businesses with Ohio gross receipts
+        has shifted in recent years. Businesses with Ohio gross receipts
         under $150,000 owe no CAT, and the next tier has a modest flat fee.
         Above $1 million in Ohio receipts, the tax is calculated as a
         percentage of receipts. Most small businesses never hit the CAT
@@ -61,8 +61,8 @@ export default function Post() {
         <strong>Ohio sales tax.</strong> If you sell products or certain
         taxable services to Ohio customers, you need to collect Ohio sales
         tax (currently 5.75% state, plus local add-ons bringing Mason-area
-        total to around 7%). Most pure service small businesses — consultants,
-        coaches, freelance designers — don&apos;t owe sales tax. But if you
+        total to around 7%). Most pure service small businesses, such as consultants,
+        coaches, and freelance designers, don&apos;t owe sales tax. But if you
         sell physical products or digital products, verify your obligations
         before your first sale, not after.
       </p>
@@ -124,8 +124,8 @@ export default function Post() {
       </p>
       <p>
         <strong>Your local bank matters more than you think.</strong> Banks
-        with a real presence in Mason — First Financial, Fifth Third,
-        Huntington, US Bank — often have local business bankers who will
+        with a real presence in Mason, including First Financial, Fifth Third,
+        Huntington, and US Bank, often have local business bankers who will
         actually answer the phone when you call.
       </p>
 

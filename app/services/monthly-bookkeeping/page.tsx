@@ -4,7 +4,7 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: "Monthly Bookkeeping for Small Businesses",
   description:
-    "Monthly bookkeeping for small businesses — categorization, reconciliation, and clean financial reports delivered every month. QuickBooks-certified.",
+    "Monthly bookkeeping for small businesses: categorization, reconciliation, and clean financial reports delivered every month. QuickBooks-certified.",
   alternates: { canonical: "/services/monthly-bookkeeping" },
   openGraph: {
     title: "Monthly Bookkeeping for Small Businesses",
@@ -22,9 +22,9 @@ export default function MonthlyBookkeepingPage() {
       serviceType="Monthly Bookkeeping"
       breadcrumb="Services / Monthly Bookkeeping"
       headline="Clean books, every month, without thinking about it."
-      subhead="For small business owners who want their books handled on a steady monthly cadence — categorized, reconciled, reported, and ready whenever you need them."
+      subhead="For small business owners who want their books handled on a steady monthly cadence: categorized, reconciled, reported, and ready whenever you need them."
       whoForTitle="Who monthly bookkeeping is for."
-      whoForBody="You're running a solo business and you need your books maintained consistently — not scrambled together once a year. Maybe you've tried doing it yourself and it fell off. Maybe your business is growing and the admin burden is getting real. Either way, you want a system that runs quietly in the background so you can focus on actual work."
+      whoForBody="You're running a solo business and you need your books maintained consistently, not scrambled together once a year. Maybe you've tried doing it yourself and it fell off. Maybe your business is growing and the admin burden is getting real. Either way, you want a system that runs quietly in the background so you can focus on actual work."
       includedTitle="What's included every month."
       included={[
         {
@@ -40,7 +40,7 @@ export default function MonthlyBookkeepingPage() {
         {
           title: "Monthly financial reports",
           description:
-            "Profit & loss and balance sheet delivered in plain English — no accounting degree needed.",
+            "Profit & loss and balance sheet delivered in plain English. No accounting degree needed.",
         },
         {
           title: "QuickBooks Online setup & maintenance",
@@ -50,7 +50,7 @@ export default function MonthlyBookkeepingPage() {
         {
           title: "Unlimited email support",
           description:
-            "Ask questions throughout the month and get same-day answers — no per-minute billing.",
+            "Ask questions throughout the month and get same-day answers with no per-minute billing.",
         },
         {
           title: "Year-end tax-ready package",
@@ -83,12 +83,12 @@ export default function MonthlyBookkeepingPage() {
         {
           question: "How many transactions does monthly service cover?",
           answer:
-            "Transaction volume is one of the factors in your custom quote. Most small businesses fall in the standard range — we'll confirm on our call.",
+            "Transaction volume is one of the factors in your custom quote. Most small businesses fall in the standard range, which we'll confirm on our call.",
         },
         {
           question: "Do I need QuickBooks Online?",
           answer:
-            "QBO is what I recommend and am certified in, but if you're on Xero, Wave, or something else, let's talk — I can usually make it work.",
+            "QBO is what I recommend and am certified in, but if you're on Xero, Wave, or something else, let's talk. I can usually make it work.",
         },
         {
           question: "What if my books are currently behind?",
@@ -98,7 +98,7 @@ export default function MonthlyBookkeepingPage() {
         {
           question: "Is there a long-term contract?",
           answer:
-            "Month-to-month. If the fit isn't right, you can stop any time — though most clients stay long-term.",
+            "Month-to-month. If the fit isn't right, you can stop any time, though most clients stay long-term.",
         },
       ]}
       finalTitle="Ready to hand off the books?"

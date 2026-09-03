@@ -40,9 +40,9 @@ export default function Post() {
         When you categorize an expense in QuickBooks (or any bookkeeping
         system), you&apos;re doing two things at once. First, you&apos;re
         grouping similar expenses so your monthly P&amp;L actually tells you
-        something useful — &ldquo;software&rdquo; is more useful than a pile
+        something useful. &ldquo;Software&rdquo; is more useful than a pile
         of individual subscriptions. Second, you&apos;re setting up your tax
-        return — most categories map directly to a line on Schedule C or your
+        return, since most categories map directly to a line on Schedule C or your
         business return.
       </p>
       <p>
@@ -63,74 +63,74 @@ export default function Post() {
         expense categories. Here are the ones that cover nearly everything:
       </p>
       <p>
-        <strong>Advertising &amp; Marketing</strong> — Facebook ads, Google
+        <strong>Advertising &amp; Marketing:</strong> Facebook ads, Google
         ads, business cards, website hosting used for marketing pages,
         marketing consultants.
       </p>
       <p>
-        <strong>Software &amp; Subscriptions</strong> — QuickBooks, Zoom,
+        <strong>Software &amp; Subscriptions:</strong> QuickBooks, Zoom,
         Adobe, Dropbox, Canva, any monthly or annual software for the
         business.
       </p>
       <p>
-        <strong>Office Supplies</strong> — Printer paper, pens, notebooks,
+        <strong>Office Supplies:</strong> Printer paper, pens, notebooks,
         small physical supplies. If it&apos;s physical and under about $500,
         it probably goes here.
       </p>
       <p>
-        <strong>Office Equipment</strong> — Laptops, monitors, printers,
+        <strong>Office Equipment:</strong> Laptops, monitors, printers,
         desks, chairs. Anything over about $500 that lasts more than a year
         goes here and may need to be depreciated rather than deducted all at
         once.
       </p>
       <p>
-        <strong>Contractors &amp; Professional Services</strong> — Payments to
+        <strong>Contractors &amp; Professional Services:</strong> Payments to
         other freelancers, your CPA, your attorney, your bookkeeper. Anyone
         you pay $600+ in a year needs a 1099 at year-end.
       </p>
       <p>
-        <strong>Home Office</strong> — If you have a dedicated home office
+        <strong>Home Office:</strong> If you have a dedicated home office
         space, a percentage of rent/mortgage interest, utilities, and
         internet. See below for the rules.
       </p>
       <p>
-        <strong>Travel</strong> — Flights, hotels, rental cars, Ubers for
+        <strong>Travel:</strong> Flights, hotels, rental cars, Ubers for
         business trips. Not your daily commute.
       </p>
       <p>
-        <strong>Meals</strong> — Business meals with clients or during travel.
+        <strong>Meals:</strong> Business meals with clients or during travel.
         Currently 50% deductible. Keep notes on who you met with and why.
       </p>
       <p>
-        <strong>Vehicle / Mileage</strong> — If you use your car for business,
+        <strong>Vehicle / Mileage:</strong> If you use your car for business,
         you can either track actual expenses or take the standard mileage
         rate (currently around 67 cents per mile). Pick one method and stick
         with it.
       </p>
       <p>
-        <strong>Phone &amp; Internet</strong> — The business percentage of
+        <strong>Phone &amp; Internet:</strong> The business percentage of
         your phone and internet bills.
       </p>
       <p>
-        <strong>Insurance</strong> — Business liability, professional
+        <strong>Insurance:</strong> Business liability, professional
         liability, health insurance if you&apos;re self-employed.
       </p>
       <p>
-        <strong>Bank &amp; Payment Processing Fees</strong> — Stripe, PayPal,
+        <strong>Bank &amp; Payment Processing Fees:</strong> Stripe, PayPal,
         bank account fees, wire transfer fees. These add up and are fully
         deductible.
       </p>
       <p>
-        <strong>Education &amp; Training</strong> — Courses, conferences,
+        <strong>Education &amp; Training:</strong> Courses, conferences,
         books, professional development directly related to your current
         business.
       </p>
       <p>
-        <strong>Licenses &amp; Permits</strong> — Annual business
+        <strong>Licenses &amp; Permits:</strong> Annual business
         registration, professional licenses, local permits.
       </p>
       <p>
-        <strong>Dues &amp; Memberships</strong> — Professional organizations,
+        <strong>Dues &amp; Memberships:</strong> Professional organizations,
         industry associations.
       </p>
       <p>
@@ -166,7 +166,7 @@ export default function Post() {
       <h2>Mileage: track it or lose it</h2>
       <p>
         If you use your car for business at all, you need to track mileage.
-        Not tracking it means leaving money on the table — every business
+        Not tracking it means leaving money on the table. Every business
         mile is worth about 67 cents as a deduction.
       </p>
       <p>
@@ -187,7 +187,7 @@ export default function Post() {
       <p>
         If you run personal expenses through a business account, every one of
         those transactions needs to be categorized as an Owner Draw (or
-        Distribution, depending on your business structure) — not as a
+        Distribution, depending on your business structure), not as a
         business expense. This is one of the most common errors in DIY
         bookkeeping.
       </p>
@@ -201,7 +201,7 @@ export default function Post() {
       <h2>When in doubt, err toward simple</h2>
       <p>
         The IRS and your CPA both prefer consistent simplicity over creative
-        categorization. The goal of categorization isn&apos;t perfection —
+        categorization. The goal of categorization isn&apos;t perfection.
         it&apos;s creating books you can actually use and a return you can
         actually file. Consistent-and-close beats perfect-but-never-finished
         every single time.
