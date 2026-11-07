@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | TOTYM Finance",
   },
   description:
-    "TOTYM Finance provides QuickBooks-certified bookkeeping, tax-ready financials, and catch-up bookkeeping for small business owners in Mason, Ohio and nationwide.",
+    "TOTYM Finance provides professional bookkeeping with QuickBooks Online expertise, tax-ready financials, and catch-up bookkeeping for small business owners in Mason, Ohio and nationwide.",
   metadataBase: new URL("https://www.totymfinance.com"),
   applicationName: "TOTYM Finance",
   authors: [{ name: "Yinks", url: "https://www.totymfinance.com/about" }],
@@ -96,7 +96,7 @@ export default function RootLayout({
                   },
                   image: "https://www.totymfinance.com/totym-finance-banner.jpg",
                   description:
-                    "QuickBooks-certified bookkeeping, catch-up bookkeeping, payroll support, and tax-ready financials for small business owners.",
+                    "Professional bookkeeping with QuickBooks Online expertise, catch-up bookkeeping, payroll support, and tax-ready financials for small business owners.",
                   telephone: "+1-513-360-8842",
                   email: "yinks@totymservices.com",
                   sameAs: [
@@ -131,6 +131,17 @@ export default function RootLayout({
                     email: "yinks@totymservices.com",
                     availableLanguage: "English",
                     areaServed: "US",
+                  },
+                  founder: {
+                    "@type": "Person",
+                    name: "Yinks",
+                    jobTitle: "Professional Bookkeeper",
+                    url: "https://www.totymfinance.com/about",
+                    knowsAbout: [
+                      "QuickBooks Online",
+                      "small business bookkeeping",
+                      "financial organization",
+                    ],
                   },
                   hasCredential: [
                     {

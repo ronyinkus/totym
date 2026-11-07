@@ -4,7 +4,7 @@ import ServicePage from "@/components/ServicePage";
 export const metadata: Metadata = {
   title: "Tax-Ready Financials for Small Businesses",
   description:
-    "Year-end financials prepared the way CPAs actually want them. QuickBooks-certified bookkeeping for small businesses, so your tax filing is fast, accurate, and doesn't eat your January.",
+    "Year-end financials prepared the way CPAs actually want them. Professional Bookkeeping with Quickbooks Online expertise for small businesses, so your tax filing is fast, accurate, and doesn't eat your January.",
   alternates: { canonical: "/services/tax-ready-financials" },
   openGraph: {
     title: "Tax-Ready Financials for Small Businesses",

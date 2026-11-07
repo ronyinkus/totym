@@ -5,10 +5,10 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Meet Yinks, founder of TOTYM Bookkeeping Services LLC, a QuickBooks Certified ProAdvisor and Tax Expert helping small businesses in Mason, Ohio and nationwide keep their books clean and their weekends free.",
+    "Meet Yinks, founder of TOTYM Bookkeeping Services LLC, providing professional bookkeeping with Quickbooks Online expertise for small businesses in Mason, Ohio and nationwide.",
   alternates: { canonical: "/about" },
   openGraph: {
-    title: "About Yinks, QuickBooks Certified ProAdvisor",
+    title: "About Yinks | Professional Bookkeeper",
     description:
       "Meet the founder of TOTYM Finance, serving small businesses in Mason, Ohio and nationwide.",
     url: "/about",
@@ -37,8 +37,8 @@ export default function AboutPage() {
             Hi, I&apos;m Yinks.
           </h1>
           <p className="text-[15px] leading-[1.7] text-slate-600 max-w-xl">
-            QuickBooks Certified ProAdvisor, Tax Expert, and founder of TOTYM
-            Bookkeeping Services LLC.
+            Professional Bookkeeping with Quickbooks Online expertise, and
+            founder of TOTYM Bookkeeping Services LLC.
           </p>
         </div>
       </section>
@@ -242,34 +242,8 @@ export default function AboutPage() {
                 <polyline points="20 6 9 17 4 12" />
               </svg>
               <span>
-                <strong className="text-brand-navy font-medium">
-                  QuickBooks Certified ProAdvisor:
-                </strong>{" "}
-                Official Intuit certification for QuickBooks Online
-                expertise
-              </span>
-            </li>
-            <li className="flex gap-3">
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="text-brand-blue flex-shrink-0 mt-1"
-              >
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-              <span>
-                <strong className="text-brand-navy font-medium">
-                  Tax Expert:
-                </strong>{" "}
-                Years of experience with self-employment taxes, IRS
-                correspondence, and financial organization for individuals
-                and small businesses
+                Credential earned through Intuit&apos;s QuickBooks ProAdvisor
+                Program demonstrating expertise in QuickBooks Online.
               </span>
             </li>
           </ul>

@@ -1,6 +1,6 @@
 const content = `# TOTYM Finance
 
-> TOTYM Finance is TOTYM Bookkeeping Services LLC, a QuickBooks-certified bookkeeping firm based in Mason, Ohio and serving small businesses across the United States.
+> TOTYM Finance is TOTYM Bookkeeping Services LLC, providing Professional Bookkeeping with Quickbooks Online expertise from Mason, Ohio and serving small businesses across the United States.
 
 ## Services
 

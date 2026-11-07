@@ -26,7 +26,7 @@ export default function Home() {
               />
 
               <p className="text-[15px] leading-[1.7] text-slate-600 mb-7 max-w-lg">
-                QuickBooks-certified bookkeeping that keeps your books clean,
+                Professional Bookkeeping with Quickbooks Online expertise that keeps your books clean,
                 your taxes ready, and your weekends yours. Based in Mason,
                 Ohio. Serving small businesses nationwide.
               </p>

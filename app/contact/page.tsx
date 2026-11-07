@@ -5,7 +5,7 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Book a Consultation",
   description:
-    "Book a free 30-minute consultation with TOTYM Bookkeeping Services LLC. QuickBooks-certified bookkeeping for small businesses in Mason, Ohio and nationwide.",
+    "Book a free 30-minute consultation with TOTYM Bookkeeping Services LLC. Professional Bookkeeping with Quickbooks Online expertise for small businesses in Mason, Ohio and nationwide.",
   alternates: { canonical: "/contact" },
   openGraph: {
     title: "Book a Free Bookkeeping Consultation",
