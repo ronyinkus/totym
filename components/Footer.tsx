@@ -44,6 +44,13 @@ export default function Footer() {
                 className="h-20 w-20 object-contain"
               />
             </div>
+            <p className="mt-3 text-[11px] leading-relaxed text-slate-500">
+              TOTYM Bookkeeping Services LLC is an independent bookkeeping
+              firm and is not affiliated with, endorsed by, or an agent or
+              exclusive representative of Intuit Inc. QuickBooks and Intuit
+              are trademarks of Intuit Inc. Our ProAdvisor certifications
+              indicate program participation and product knowledge only.
+            </p>
           </div>
 
           <div>

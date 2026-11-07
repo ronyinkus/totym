@@ -24,7 +24,7 @@ export const metadata: Metadata = {
  * ============================================================================
  */
 
-const EFFECTIVE_DATE = "May 1, 2026";
+const EFFECTIVE_DATE = "November 7, 2026";
 
 export default function TermsPage() {
   return (
@@ -104,6 +104,15 @@ export default function TermsPage() {
           do not control these third parties and are not responsible for
           their content, policies, or practices. Following a link is at your
           own risk.
+        </p>
+
+        <h2>Relationship with Intuit</h2>
+        <p>
+          TOTYM Bookkeeping Services LLC is an independent bookkeeping firm
+          and is not affiliated with, endorsed by, or an agent or exclusive
+          representative of Intuit Inc. QuickBooks and Intuit are trademarks
+          of Intuit Inc. Our ProAdvisor certifications indicate program
+          participation and product knowledge only.
         </p>
 
         <h2>Disclaimers</h2>
